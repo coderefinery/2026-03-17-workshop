@@ -1,6 +1,32 @@
 ---
 # all times must be input in UTC, be careful about daylight saving
 schedule:
+  - title: "Shell crash course and installation help"
+    date: "2025-03-11"
+    sessions:
+      - starts: 12:00
+        ends: 12:30
+        title: Shell crash course
+        url: https://youtu.be/xbTTDLA3txI
+        subtitle: "This is optional, but recommended to beginners in command line."
+      - starts: 12:30
+        ends: 14:00
+        title: Installation help for everybody (optional)
+        url: https://coderefinery.github.io/installation/
+        subtitle: "Please attend if you need help with the installation instructions. Choose the option that works best for you."
+  - title: "Shell crash course and installation help" (optional)
+    date: "2025-03-16"
+    sessions:
+      - starts: 12:00
+        ends: 12:30
+        title: Shell crash course
+        url: https://youtu.be/xbTTDLA3txI
+        subtitle: "This is optional, but recommended to beginners in command line."
+      - starts: 12:30
+        ends: 14:00
+        title: Installation help for everybody (optional)
+        url: https://coderefinery.github.io/installation/
+        subtitle: "Please attend if you need help with the installation instructions. Choose the option that works best for you."
   - title: "Day 1"
     date: "2025-03-17"
     sessions:
