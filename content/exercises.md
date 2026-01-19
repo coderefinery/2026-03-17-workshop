@@ -24,9 +24,4 @@ Day 3:
 
 ### Week 2
 
-In week 2, the instructors will go through exercises on stream and invite
-learners to participate with questions using the collaborative document.
-
-We will not switch between lectures and group exercise sessions in week 2.  For
-groups that wish to go through exercises on their own, we recommend to schedule
-separate sessions for this.
+TBD
