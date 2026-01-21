@@ -29,10 +29,10 @@ If this sounds interesting to you, please register asap, so that we can invite y
 Some organizations offer local support (in-person or online). 
 If you want to "bring your own classroom", get in contact (support(at)coderefinery.org) and we can onboard and support you.
 
-To join any of the below mentioned groups, please sign up to the CodeRefinery workshop with your organizational e-mail address (or mention in the free form field that you would like to join one of the local groups). We will soon reach out to share more information about the local groups. Please also let us know if you want your local group to be listed here. 
+To join any of the below mentioned groups, please sign up to the CodeRefinery workshop with your organizational e-mail address (or mention in the free form field that you would like to join one of the local groups). We will soon reach out to share more information about the local groups. Please also let us know if you want your local group to be listed here via e-mail to support@coderefinery.org.
 
 We collect here the exercise groups that we know:
-- ...
+- TBD, likely Oslo (NO), Stockholm (SE), Copenhagen (DK), London (UK), Espoo (FI), and your place? 
 
 
 ## Instructors
@@ -42,17 +42,15 @@ We collect here the exercise groups that we know:
 
 ## Workshop organizers
 
-- ...
+- Diana Iusan
+- Enrico Glerean
+- Samantha Wittke
 
 
 ## On-boarding
 
-- ...
-
-
-## Outreach
-
-- ...
+- Richard Darst
+- Samantha Wittke
 
 
 ## Recording and broadcasting
