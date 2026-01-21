@@ -5,7 +5,7 @@
 base_url = "https://coderefinery.github.io/2026-03-17-workshop/"
 
 # When adapting the title, do not forget to also adjust base_url above
-title = "CodeRefinery workshop 17.-19. and 24.-26. of March 2026"
+title = "CodeRefinery workshop March 17-19 and 24-26, 2026"
 description = "Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists."
 
 # Whether to automatically compile all Sass files in the sass directory
