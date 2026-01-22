@@ -101,8 +101,8 @@ schedule:
         url: https://coderefinery.github.io/documentation/
       - starts: 12:00
         ends: 14:00
-        title: Jupyter notebooks
-        subtitle: A tool to write and share executable notebooks and data visualization
+        title: Responsible use of generative AI in assisted coding
+        subtitle: 
         url: https://coderefinery.github.io/jupyter/
   - title: "Day 6"
     date: "2025-03-26"
