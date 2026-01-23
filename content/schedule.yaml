@@ -103,7 +103,7 @@ schedule:
         ends: 14:00
         title: Responsible use of generative AI in assisted coding
         subtitle: 
-        url: https://coderefinery.github.io/jupyter/
+        url: 
   - title: "Day 6"
     date: "2025-03-26"
     sessions:
