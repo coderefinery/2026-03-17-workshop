@@ -37,6 +37,11 @@ We collect here the exercise groups that we know:
 
 ## Instructors
 
+- Bjørn Lindi
+- Enrico Glerean
+- Ina Pöhner
+- Michele Mesiti
+- Oskar Taubert
 - ...
 
 
@@ -55,14 +60,7 @@ We collect here the exercise groups that we know:
 
 ## Recording and broadcasting
 
-- ...
+- Aalto Scientific Computing team 
 
 
-## Local organizers and team leads
 
-- ...
-
-
-## Collaborative notes managers
-
-- ...
