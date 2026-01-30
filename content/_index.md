@@ -31,8 +31,14 @@ If you want to "bring your own classroom", get in contact (support(at)coderefine
 
 To join any of the below mentioned groups, please sign up to the CodeRefinery workshop with your organizational e-mail address (or mention in the free form field that you would like to join one of the local groups). We will soon reach out to share more information about the local groups. Please also let us know if you want your local group to be listed here via e-mail to support@coderefinery.org.
 
-We collect here the exercise groups that we know:
-- TBD, likely Oslo (NO), Stockholm (SE), Copenhagen (DK), London (UK), Espoo (FI), and your place? 
+In-person classrooms that we know of:
+- **KTH Royal Institute of Technology, Stockholm, Sweden**
+- **University of Oslo, Norway**
+- **DTU – Technical University of Denmark, Copenhagen, Denmark**
+- **Aalto University / CSC - IT Center for Science, Espoo, Finland**
+- **University of Tartu, Estonia**
+- **Imperial College London, United Kingdom**
+- ...
 
 
 ## Instructors
