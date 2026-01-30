@@ -38,6 +38,7 @@ In-person classrooms that we know of:
 - **Aalto University / CSC - IT Center for Science, Espoo, Finland**
 - **University of Tartu, Estonia**
 - **Imperial College London, United Kingdom**
+- **University of Iceland, Reykjavik**
 - ...
 
 
