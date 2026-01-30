@@ -9,7 +9,7 @@ CodeRefinery workshop on tools and techniques for reproducible research
 Are you writing code for your research?
 Do you struggle to reproduce results of your own or others computations?
 
-Join the online CodeRefinery workshop on six half days, March 17-19 and 24-26, 2026.
+Join the online CodeRefinery workshop on six half days, March 17-19 and 24-26, 2026, 10 - 15 CET.
 
 The CodeRefinery workshop aims to support researchers of all domains,
 levels and preferred programming languages to write more reproducible research code.
