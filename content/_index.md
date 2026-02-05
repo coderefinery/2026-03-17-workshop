@@ -29,16 +29,17 @@ If this sounds interesting to you, please register asap, so that we can invite y
 Some organizations offer local support (in-person or online). 
 If you want to "bring your own classroom", get in contact (support(at)coderefinery.org) and we can onboard and support you.
 
-To join any of the below mentioned groups, please sign up to the CodeRefinery workshop with your organizational e-mail address (or mention in the free form field that you would like to join one of the local groups). We will soon reach out to share more information about the local groups. Please also let us know if you want your local group to be listed here via e-mail to support@coderefinery.org.
+To join any of the below mentioned groups, please sign up to the CodeRefinery workshop with your organizational e-mail address (or mention in the free form field that you would like to join one of the local groups). We will soon reach out/ update this page to share more information about the local groups. Please also let us know if you want your local group to be listed here via e-mail to support@coderefinery.org.
 
 In-person classrooms that we know of:
 - **KTH Royal Institute of Technology, Stockholm, Sweden**
 - **University of Oslo, Norway**
 - **DTU – Technical University of Denmark, Copenhagen, Denmark**
-- **Aalto University / CSC - IT Center for Science, Espoo, Finland**
+- **Aalto University, Espoo, Finland**
 - **University of Tartu, Estonia**
+  - Local in-person exercise session and support for all days at University of Tartu. You can watch the live stream and get on-site support from an instructor to help clarify concepts and troubleshoot errors. If you wish to register for local classroom in Tartu, please sign up via [Elixir Estonia event page](https://elixir.ut.ee/news/2026/02/05/CodeRefinery_march_local/)
 - **Imperial College London, United Kingdom**
-  - Local in-person session for the first week of the course at Imperial College London. Open to researchers at any UK institution in all disciplines (including PhD students, ECRs, technicians and technical professionals of all kinds). Please [sign up via their event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
+  - Local in-person session for the first week of the course at Imperial College London. Open to researchers at any UK institution in all disciplines (including PhD students, ECRs, technicians and technical professionals of all kinds). Please sign up via [STEP-UP event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
 - **University of Iceland, Reykjavik**
 - ...
 
@@ -50,7 +51,14 @@ In-person classrooms that we know of:
 - Ina Pöhner
 - Michele Mesiti
 - Oskar Taubert
-- ...
+- Susa Merz
+- Diana Iusan
+- Hemanadhan Myneni
+- Thomas Pfau
+- Luca Ferranti
+- Frankie Robertson
+- Anja Virkkunen
+- Blazej Baczkowski
 
 
 ## Workshop organizers
@@ -68,7 +76,24 @@ In-person classrooms that we know of:
 
 ## Recording and broadcasting
 
-- Aalto Scientific Computing team 
+- Aalto Scientific Computing team
+
+## Classroom hosts and team leads
+
+- Patricia Hernández León
+- Nguyen Luong
+- Bahar Tasdighi
+- Yonglei Wang
+- Diana Pilvar
+- Priit Adler
+- Isabella von Holstein
+- Jeremy Cohen
+- Mattias Vesterlund
+- Elisa Pierfederici
+- Federico Bianchini
+- Jitka Stilund Hansen
+- Hemanadhan Myneni
+- ...
 
 
 
