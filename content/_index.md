@@ -38,6 +38,7 @@ In-person classrooms that we know of:
 - **Aalto University / CSC - IT Center for Science, Espoo, Finland**
 - **University of Tartu, Estonia**
 - **Imperial College London, United Kingdom**
+  - Local in-person session for the first week of the course at Imperial College London. Open to researchers at any UK institution in all disciplines (including PhD students, ECRs, technicians and technical professionals of all kinds). Please [sign up via their event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
 - **University of Iceland, Reykjavik**
 - ...
 
