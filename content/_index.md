@@ -33,7 +33,9 @@ To join any of the below mentioned groups, please sign up to the CodeRefinery wo
 
 In-person classrooms that we know of:
 - **KTH Royal Institute of Technology, Stockholm, Sweden**
-- **University of Oslo, Norway**
+- **UiO - University of Oslo, Norway**
+  - Local in-person exercise session for Days 1–3 (March 17-19) at UiO, with on-site helpers available. Open to students, researchers, and staff at UiO.
+  - Please register separately via the [UiO event page](https://www.ub.uio.no/english/courses-events/courses/coderefinery/time-and-place/2026-03-17-part1.html) to join the in-person group
 - **DTU – Technical University of Denmark, Copenhagen, Denmark**
 - **Aalto University, Espoo, Finland**
 - **University of Tartu, Estonia**
