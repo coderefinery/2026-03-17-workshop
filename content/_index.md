@@ -38,6 +38,7 @@ In-person classrooms that we know of:
   - Please register separately via the [UiO event page](https://www.ub.uio.no/english/courses-events/courses/coderefinery/time-and-place/2026-03-17-part1.html) to join the in-person group
 - **DTU – Technical University of Denmark, Copenhagen, Denmark**
 - **Aalto University, Espoo, Finland**
+  - Local in-person session for Days 1–3 (March 17-19) at the LUMI AI Factory "AI Hub", Aalto university, Maarintie 8. Open to anyone in Finland who registered to the March 2026 CodeRefinery workshop. You will get a separate registration form for the in-person event.
 - **University of Tartu, Estonia**
   - Local in-person exercise session and support for all days at University of Tartu. You can watch the live stream and get on-site support from an instructor to help clarify concepts and troubleshoot errors. If you wish to register for local classroom in Tartu, please sign up via [Elixir Estonia event page](https://elixir.ut.ee/news/2026/02/05/CodeRefinery_march_local/)
 - **Imperial College London, United Kingdom**
