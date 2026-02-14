@@ -46,7 +46,8 @@ In-person classrooms that we know of:
 - **Imperial College London, United Kingdom**
   - Local in-person session for the first week of the course at Imperial College London. Open to **researchers at any UK institution in all disciplines** (including PhD students, ECRs, technicians and technical professionals of all kinds). Please sign up via [STEP-UP event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
 - **University of Iceland, Reykjavik**
-- ...
+  - Local in-person exercise session for days 1-3 (Mar 17-19) at UICE, with on-site helpers available. Open to all students, researchers, and staff at UICE. Please register separately via the [UICE event page](https://english.hi.is/events/coderefinery-workshop-0) to join the in-person group.
+
 
 
 ## Instructors
