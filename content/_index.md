@@ -33,6 +33,8 @@ To join any of the below mentioned groups, please sign up to the CodeRefinery wo
 
 In-person classrooms that we know of:
 - **KTH Royal Institute of Technology, Stockholm, Sweden**
+  - Local in-person exercise session on all workshop days at the KTH Library with on-site helpers from KTH and/or RISE available.
+  - Please register separately in the [KTH webform](https://www.kth.se/form/6980bccda336ea0c04b05fb1) to join the in-person sessions.
 - **UiO - University of Oslo, Norway**
   - Local in-person exercise session for Days 1–3 (March 17-19) at UiO, with on-site helpers available. Open to students, researchers, and staff at UiO.
   - Please register separately via the [UiO event page](https://www.ub.uio.no/english/courses-events/courses/coderefinery/time-and-place/2026-03-17-part1.html) to join the in-person group
