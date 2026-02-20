@@ -37,13 +37,17 @@ In-person classrooms that we know of:
   - Local in-person exercise session for Days 1–3 (March 17-19) at UiO, with on-site helpers available. Open to students, researchers, and staff at UiO.
   - Please register separately via the [UiO event page](https://www.ub.uio.no/english/courses-events/courses/coderefinery/time-and-place/2026-03-17-part1.html) to join the in-person group
 - **DTU – Technical University of Denmark, Copenhagen, Denmark**
+  - Local in-person exercise session and support on all workshop days at Technical University of Denmark (DTU - Lyngby Campus). Open to **students and staff at all Danish universities**, who register to the March 2026 CodeRefinery workshop. Free snacks, tea/coffee, lunch and helpers sponsored by Danish Data Science Academy.
+  - You have to do a separate registration for the in-person event in the [DTU Library calendar](https://www.bibliotek.dtu.dk/kalender/coderefinery-17032026?id=0442eba6-ee5a-47a0-8484-5453a15f735b)
 - **Aalto University, Espoo, Finland**
+  - Local in-person session for Days 1–3 (March 17-19) at the LUMI AI Factory "AI Hub", Aalto university, Maarintie 8. Open to **anyone in Finland** who registered to the March 2026 CodeRefinery workshop. Free snacks + tea/coffee (lunch on your expenses). You will get a separate registration form for the in-person event.
 - **University of Tartu, Estonia**
   - Local in-person exercise session and support for all days at University of Tartu. You can watch the live stream and get on-site support from an instructor to help clarify concepts and troubleshoot errors. If you wish to register for local classroom in Tartu, please sign up via [Elixir Estonia event page](https://elixir.ut.ee/news/2026/02/05/CodeRefinery_march_local/)
 - **Imperial College London, United Kingdom**
-  - Local in-person session for the first week of the course at Imperial College London. Open to researchers at any UK institution in all disciplines (including PhD students, ECRs, technicians and technical professionals of all kinds). Please sign up via [STEP-UP event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
+  - Local in-person session for the first week of the course at Imperial College London. Open to **researchers at any UK institution in all disciplines** (including PhD students, ECRs, technicians and technical professionals of all kinds). Please sign up via [STEP-UP event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
 - **University of Iceland, Reykjavik**
-- ...
+  - Local in-person exercise session for days 1-3 (Mar 17-19) at UICE, with on-site helpers available. Open to all students, researchers, and staff at UICE. Please register separately via the [UICE event page](https://english.hi.is/events/coderefinery-workshop-0) to join the in-person group.
+
 
 
 ## Instructors
