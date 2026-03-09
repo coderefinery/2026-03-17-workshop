@@ -24,4 +24,20 @@ Day 3:
 
 ### Week 2
 
-TBD
+Day 4 first half, reproducible research:
+- TBD
+
+Day 4 second half, social coding and open software:
+- TBD
+
+Day 5 first half, how to document your research software:
+- TBD
+
+Day 5 second half, responsible use of generative AI in assisted coding:
+- TBD
+
+Day 6 first half, automated testing:
+- TBD
+
+Day 6 second half, modular code development:
+- TBD
