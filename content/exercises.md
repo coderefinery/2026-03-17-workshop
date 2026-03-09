@@ -40,4 +40,4 @@ Day 6 first half, automated testing:
 - TBD
 
 Day 6 second half, modular code development:
-- TBD
+- No exercises; Lesson is structured as type along
