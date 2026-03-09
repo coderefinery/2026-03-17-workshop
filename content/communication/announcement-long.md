@@ -12,9 +12,9 @@ Do you struggle to reproduce results of your own or others computations?
 
 Join the [CodeRefinery workshop](http://coderefinery.github.io/2026-03-17-workshop/), covering the following topics:
 -   **What**: **Intro to git and collaborative git, on GitHub**
-    **When**: March 17-19, 2026, 10:00 - 15:00 CET
+-   **When**: March 17-19, 2026, 10:00 - 15:00 CET
 -   **What**: **Reproducible research**, **Social Coding**, **AI Assisted Research Software Development**, **tools for documentation and testing** and **modular code development**
-    **When**: March 24-26, 2026, 10:00 - 15:00 CET
+-   **When**: March 24-26, 2026, 10:00 - 15:00 CET
 
 The intended audience for this workshop are researchers of all domains, levels and preferred programming languages who write code in their research. 
 By deepening the knowledge of the tools that enable better code development and sharing, we aim to improve the reproducibility of our research results.
