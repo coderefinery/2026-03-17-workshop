@@ -14,3 +14,5 @@ coordinated breaks for exercises.
 
 **Some organizations offer their own registration form**. In this case please
 register with them as well.
+
+The workshop is in **English**, **completely free**, and designed to be as **accessible** as possible.
