@@ -31,7 +31,11 @@ Day 4 second half, social coding and open software:
 - TBD
 
 Day 5 first half, how to document your research software:
-- TBD
+- During the exercise break, participants can choose from the following three exercises. The time will probably be enough to do at most two:
+  - [Sphinx-2: Add more content to your example documentation](https://coderefinery.github.io/documentation/sphinx/#exercise-adding-more-sphinx-content)
+  - [Sphinx-3: Auto-generating documentation from Python docstrings](https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-autodoc)
+  - [Sphinx-4: Writing Sphinx content with Jupyter](https://coderefinery.github.io/documentation/sphinx/#exercise-using-jupyter-with-sphinx)
+- During the second exercises break, we will do [GH-Pages-2: Deploy Sphinx documentation to GitHub Pages](https://coderefinery.github.io/documentation/gh_workflow/#exercise-sphinx-documentation-on-github-pages)
 
 Day 5 second half, responsible use of generative AI in assisted coding:
 - TBD
