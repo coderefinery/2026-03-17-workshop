@@ -37,7 +37,8 @@ Day 5 second half, responsible use of generative AI in assisted coding:
 - TBD
 
 Day 6 first half, automated testing:
-- TBD
+- [Testing Locally ex 1](https://coderefinery.github.io/testing/locally/#exercise)
+- [Test driven development](https://coderefinery.github.io/testing/test-design/#test-driven-development)
 
 Day 6 second half, modular code development:
 - No exercises; Lesson is structured as type along
