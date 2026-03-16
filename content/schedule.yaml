@@ -30,6 +30,7 @@ schedule:
   - title: "Day 1"
     date: "2026-03-17"
     sessions:
+      - {starts: 8:50, ends: 9:00, title: "Icebreaker/connecting time"}
       - starts: 9:00
         ends: 9:20
         title: Welcome and introduction
@@ -47,6 +48,7 @@ schedule:
   - title: "Day 2"
     date: "2026-03-18"
     sessions:
+      - {starts: 8:50, ends: 9:00, title: "Icebreaker/connecting time"}
       - starts: 9:00
         ends: 11:00
         title: Introduction to version control with Git - part 3/4
@@ -60,6 +62,7 @@ schedule:
   - title: "Day 3"
     date: "2026-03-19"
     sessions:
+      - {starts: 8:50, ends: 9:00, title: "Icebreaker/connecting time"}
       - starts: 9:00
         ends: 11:00
         title: Collaborative distributed version control - part 1/2
@@ -82,6 +85,7 @@ schedule:
   - title: "Day 4"
     date: "2026-03-24"
     sessions:
+      - {starts: 8:50, ends: 9:00, title: "Icebreaker/connecting time"}
       - starts: 9:00
         ends: 11:00
         title: Reproducible research
@@ -95,6 +99,7 @@ schedule:
   - title: "Day 5"
     date: "2026-03-25"
     sessions:
+      - {starts: 8:50, ends: 9:00, title: "Icebreaker/connecting time"}
       - starts: 9:00
         ends: 11:00
         title: How to document your research software
@@ -107,6 +112,7 @@ schedule:
   - title: "Day 6"
     date: "2026-03-26"
     sessions:
+      - {starts: 8:50, ends: 9:00, title: "Icebreaker/connecting time"}
       - starts: 9:00
         ends: 11:00
         title: Automated testing
