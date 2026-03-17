@@ -49,6 +49,10 @@ In-person classrooms that we know of:
   - Local in-person session for the first week of the course at Imperial College London. Open to **researchers at any UK institution in all disciplines** (including PhD students, ECRs, technicians and technical professionals of all kinds). Please sign up via [STEP-UP event page](https://step-up.ac.uk/events/training/20260317-refinery/) to join the in-person session including tea/coffee/lunch, networking and support. 
 - **University of Iceland, Reykjavik**
   - Local in-person exercise session for days 1-3 (Mar 17-19) at UICE, with on-site helpers available. Open to all students, researchers, and staff at UICE. Please register separately via the [UICE event page](https://english.hi.is/events/coderefinery-workshop-0) to join the in-person group.
+- **ACC Cyfronet AGH, Krakow, Poland**
+  - Local in-person exercise session ACC Cyfronet AGH in Kraków, with on-site helpers available. Open to all students, researchers, and staff of polish scientific and research institutions. Please register separately via the one of events pages to join the in-person group:
+        - for fist 3 days (17-19 March)  - [https://events.plgrid.pl/e/2026-03-17-coderefinery](https://events.plgrid.pl/e/2026-03-17-coderefinery)
+        - for second part (24-26 March) - [https://events.plgrid.pl/e/2026-03-24-coderefinery](https://events.plgrid.pl/e/2026-03-24-coderefinery)
 
 
 
@@ -58,7 +62,6 @@ In-person classrooms that we know of:
 - Enrico Glerean
 - Ina Pöhner
 - Michele Mesiti
-- Oskar Taubert
 - Susa Merz
 - Diana Iusan
 - Hemanadhan Myneni
@@ -75,12 +78,10 @@ In-person classrooms that we know of:
 - Enrico Glerean
 - Samantha Wittke
 
-
 ## On-boarding
 
 - Richard Darst
 - Samantha Wittke
-
 
 ## Recording and broadcasting
 
