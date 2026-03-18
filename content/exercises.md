@@ -25,7 +25,8 @@ Day 3:
 ### Week 2
 
 Day 4 first half, reproducible research:
-- TBD
+- [Motivation: discussion on hackmd](https://coderefinery.github.io/reproducible-research/motivation/)
+- [Discussion: Reproducible publications](https://coderefinery.github.io/reproducible-research/organizing-projects/#excursion-reproducible-publications)
 
 Day 4 second half, social coding and open software:
 - TBD
