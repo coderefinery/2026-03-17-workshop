@@ -3,38 +3,7 @@ template = "page-with-toc.html"
 title = "Questions and notes from workshop day 1"
 +++
 
-# Notes - CodeRefinery workshop March 2026
-
-###### tags: `workshop` hello
-
-:::info
-- To watch the stream: https://twitch.tv/coderefinery
-- [Code of conduct](https://coderefinery.org/about/code-of-conduct/)
-- If you registered for a classroom: check separate e-mail (not from CodeRefinery, but the local host)
-- This document is for registered participants, check your email for the link
-    * *to write on this document, click on the :pencil: (Edit) icon on the top bar and write at the bottom, above the ending line. If you experience lags, switch back to "view mode" (eye :eye: icon)*
-- Schedule: https://coderefinery.github.io/2026-03-17-workshop/
-- Archive of this document: https://hackmd.io/@coderefinery/archive-workshop-2026-march
-- Archive of questions from previous days: https://coderefinery.github.io/2026-03-17-workshop/questions/
-- Suggestion: if you have just one screen (e.g. a laptop), we recommend arranging your windows like this:
-```c
-╔═══════════╗ ╔═════════════╗
-║   WEB     ║ ║  TERMINAL   ║
-║  BROWSER  ║ ║   WINDOW    ║
-║  WINDOW   ║ ╚═════════════╝
-║   WITH    ║ ╔═════════════╗
-║   THE     ║ ║   BROWSER   ║
-║  STREAM   ║ ║   W/NOTES   ║
-╚═══════════╝ ╚═════════════╝
-```
-Hint: it is possible to `popout` the twitch player (click on the gear - settings), usefull to resize the window
-
-* **Do not put names or identifying information on this page**
-:::
-
-We will use this for collaborative notes and questions.
-
-# Day 1
+# Notes - CodeRefinery workshop March 2026 - Day 1
 
 ## Icebreakers
 
@@ -617,7 +586,7 @@ this shows two recipes with "salt" but there are more, like ...
    - VSCode (recommended, if you don't know what to do) OR git from the command line
 
 
-If you had/have issues with the installation, we will provide a 1h support zoom session tomorrow morning 9:00 CEST (Oslo/Rome). More info in the email later today. Let us know if this is useful with some emojis.
+If you had/have issues with the installation, we will provide a 1h support zoom session tomorrow morning 9:00 CEST (Oslo/Rome). More info in via email. Let us know if this is useful with some emojis.
 
 Twitch will store this video for 7 days, and hopefully it will be on YouTube by the time that expires.
 
@@ -674,7 +643,7 @@ I would not recommend today to others:o
 - Add side quests for fast-learners (+3)
 - Github generally had some lag in updating, network graph hasn't updated at all, but also regarding branches etc, took a few minutes before they were available at one time.
 - More of a visual overview of the workflow using github vs. git locally, would be good to understand initially.
--  More info about how forked repository work (eg. you can't search if it s not indexed)
+- More info about how forked repository work (eg. you can't search if it s not indexed)
 - There are a lot of diffrent links
 - maybe network graph isnt the best compared with the graph you get from git log, or some other visual tool 
 - The 1 pm (Finnish time) lunch break is a bit tricky since many lunch places are closing by that time...but manageable o
