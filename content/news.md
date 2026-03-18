@@ -2,12 +2,12 @@
 +++
 
 ### News
-- Day 1 done; we covered the basics of git version control and various aspects of the GitHub user interface.
-- Day 2 moves to your local computer. Now we get to the way we really work.
-- To do the exercises, please make sure you have:
-   - a working git installation in your computer (e.g. with VS Code or terminal, see [instructions](https://coderefinery.github.io/installation/))
+
+- Day 2 done, we covered everything in the schedule: We moved from the GitHub web interface to local computer and experienced the power of working locally. 
+- Day 3 is when we will collaborate together and we will send you detailed instructions on how to do that via email later today.
+- For day 3, If you plan to do the exercises please make sure you have:
+   - a working git installation in your computer (e.g. with VS Code or with the shell terminal, see instructions at https://coderefinery.github.io/installation/)
    - GitHub account
-   - VSCode (recommended, if you don't know what to do) OR git from the command line 
 - Twitch will store the recording for 7 days, we will try to get it to youtube for after that. 
 
 
