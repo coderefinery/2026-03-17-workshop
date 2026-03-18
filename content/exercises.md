@@ -25,7 +25,7 @@ Day 3:
 ### Week 2
 
 Day 4 first half, reproducible research:
-- [Motivation: discussion on hackmd](https://coderefinery.github.io/reproducible-research/motivation/)
+- [Motivation: discussion in collaborative notes](https://coderefinery.github.io/reproducible-research/motivation/)
 - [Discussion: Reproducible publications](https://coderefinery.github.io/reproducible-research/organizing-projects/#excursion-reproducible-publications)
 
 Day 4 second half, social coding and open software:
@@ -42,8 +42,8 @@ Day 5 second half, responsible use of generative AI in assisted coding:
 - TBD
 
 Day 6 first half, automated testing:
-- [Testing Locally ex 1](https://coderefinery.github.io/testing/locally/#exercise)
+- [Testing Locally exercise 1](https://coderefinery.github.io/testing/locally/#exercise)
 - [Test driven development](https://coderefinery.github.io/testing/test-design/#test-driven-development)
 
 Day 6 second half, modular code development:
-- No exercises; Lesson is structured as type along
+- No exercises; Lesson is structured as interactive type-along
