@@ -29,7 +29,8 @@ Day 4 first half, reproducible research:
 - [Discussion: Reproducible publications](https://coderefinery.github.io/reproducible-research/organizing-projects/#excursion-reproducible-publications)
 
 Day 4 second half, social coding and open software:
-- TBD
+- [Social Coding: poll on collaborative notes](https://coderefinery.github.io/social-coding/social-coding/#discussion-questions-poll-basics-of-sharing)
+- [Licensing: poll on collaborative notes](https://coderefinery.github.io/social-coding/social-coding/#discussion-questions-poll-basics-of-sharing)
 
 Day 5 first half, how to document your research software:
 - During the exercise break, participants can choose from the following three exercises. The time will probably be enough to do at most two:
