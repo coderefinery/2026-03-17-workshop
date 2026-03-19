@@ -1,0 +1,577 @@
++++
+template = "page-with-toc.html"
+title = "Questions and notes from workshop day 3"
++++
+
+# Notes for day 3
+
+## Icebreaker :icecream:
+
+If you could ask for any superpower (can be computer-related), what would you ask for?
+
+- Ability to sleep while working
+- Teleportation. It would make commuting a lot easier.
+- Flying, have discussed this already a lot, that would be most fun and handy
+- Patience
+- Stop the time only for me, so I have more hours every day
+- I wish I can go to anywhere in the world (or even universe) instantly, teleportation ;)
+- Learn by osmosis
+- teleportation ;:
+- Wake up and fall asleep instantaneously
+- Fly like a bird
+- Teleportation, to visit friends/ family all over the world anytime 
+- Finding right emails using Outlook search
+- Think as other think
+- Ability to teleport all incompetent leaders to their own private island
+- ..
+- ..
+- ..
+- 
+
+
+In preparation for today, unless you are part of a team/classroom, have you opended an [access request issue in access request github page](https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md)?
+You will get an invitation via email. You need to accept the invitation. If you cannot find the email from GitHub, you may also find the invitation via [this link](https://github.com/orgs/cr-workshop-exercises/invitation).
+
+- Yes: ooooooooooo
+- No: o
+- What?!: oo
+
+## Questions
+
+- can you work in the same repository using Rstudio and VScode, depending on what code you're working on?
+    - This should be possible. You may need to be careful with the setup. 
+    - You can always have two copies, one for each, but then you have to sync them.
+    - If you have one repo as in one set of working files, you probably know what happens if you edit same file with both tools simultaneously
+
+- We can't see that the the twitch.tv .. it states the code refinery is offline?
+    - try refresh, it is running already -- thank you .. refresh helped.
+
+- When cloning a repository, and working locally, if a change/commit is made to the remote repository, is the local one accounting for that? (I am a bit confused about the different meanings of cloning oin other contexts)
+    - You have to `git pull` to get those changes, so it is not automatic (although VS-code, etc might automate some of that)
+    - To clone is "make copy and record where it came from" -- the "remote"
+
+- how should we do the access request issue?
+  - [access request issue in access request github page](https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md)
+  - and then?
+    - once you submit the issue, we will send you an invite that you need to accept, and when you accept it, you will be able to collaborate with us.
+    - 0k
+
+
+- If i want a certificate in the end: Do you have recommandations how to put a document together that shows that we did all exercises? 
+  - I guess you know this page already, that lists all the requirements: https://coderefinery.github.io/2026-03-17-workshop/certificates/
+  - Yes, I am referring to 1. on that page. Shall we just follow the three key points under 1. or is the documentation for all exercises needed?
+      - Only the ones mentioned there. 
+
+- Is template a GitHub shorthand for creating/converting repo that has only one branch and no history?
+    - `git clone` has also option `--depth`, which is not quite the same as template
+    - you could in principle have a template that has multiple branches. Of course, you do not have to use templates to achieve the same effect (you can clone, delete the .git repository, init again, perhaps make a first commit and set up your branches yourself as you please), but it is convenient.
+
+- I am a bit lost for which excersie i should be doing, need some help.
+  - we'll post the information down here shortly
+  - sorry about that, we were a bit distracted answering and checking the issues, but now the instructors are updating it and will add the goals :)
+  
+:::info
+
+## Exercise until xx:50
+https://coderefinery.github.io/git-collaborative/same-repository/#exercise
+The goal is to work together on one repository: create an issue, make a new branch and commit changes to it, then make a PR towards the main branch. Then other collaborators may merge your changes into the main branch.
+Please refer to `Solution and hints` if you are lost: https://coderefinery.github.io/git-collaborative/same-repository/#solution-and-hints
+
+> If you cannot see option to create a branch, please refresh the page. 
+:::
+  
+- Are we supposed to create branches on the main repository or should we fork first and then create a branch on the forked repository? Because I'm used to the second one but I can't really figure out the intended method from the instructions on the website.
+    - Are you working on your own or as a team?
+    - On my own.
+        - We added link and goal for this exercise above now. 
+        - Yeah I was reading the description on the website and couldn't figure out if I'm intended to fork first or if I can just create a branch on the main repository.
+            - Ah ok, no need to fork, though you need to be added as collaborator before you can continue 
+            - Yeah I already set that up, then I'll get going! -OK, have fun :) 
+
+- I am working on my own, on GitHub; I don't understand whether I need to fork or create a branch (And if I have to create a branch directly from "your" repository, I don't see how)
+    - You do not need to fork. If working on your own, you need to be added as a collaborator to the repo, via [access request issue in access request github page](https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md)
+        - I already did that though?
+            - I asked for access yesterday, and accepted the invitation, but I can't see an option to create a branch though
+                  - please refresh the page, one setting was changed recently, sorry for the delay
+                      - It works now, thanks!
+        
+- I got access but im not sure how to make a team... or see if im on the team of someone
+  - Do you have access to the repositories https://github.com/cr-workshop-exercises/centralized-workflow-exercise or https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded/issues
+    - Yes, i got the email and joined
+      - could you navigate to that repository, and then try to do the exercise? 
+        1. open an issue
+        2. create a new branch
+            3. Ah so technically i was allready in a team if i understood correctly. I could do the exercise, im just waiting for my pull request to be accepted
+                - yes, if you could send the pull request without needing to fork you were added as a collaborator
+
+- Oh god! who can follow all those messages in the email :).
+    - You can choose to unwatch the repository if there are too many notifications :) 
+
+- I'm working locally through command line. Where I can find the issue number, I don't quite get it..? Or is my first commit just number #1?
+    - Yeah, you have to say ;fix #(and the number of your issue, you can see it in github next to the title of the issue)
+    - You can find the number via the GitHub webinterface, issues tab, not sure there is a way to see it in command line?
+    - I cloned the files to my computer and now I'm doing the commit, but my issue is not in GitHub interface yet is it? So I don't know where to look the issue number from.
+    - You should create the issue first in the webinterface.
+    - Local -- whatever client you use -- is all Git. GitHub has Git repos _and_ other stuff, like the issues. Hence the need to use the GitHub to access the other stuff
+
+- When trying to push my local branch into the remote repository (where I created the issue) it says You don't have permissions to push to "cr-workshop-exercises/centralized-workflow-exercise" on GitHub. Would you like to create a fork and push to it instead? Should I fork it? Will the issues be copied as well?
+    - Have you requested access and accepted the invite earlier? -> https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md) 
+    - Oh, right! I didn't accept the invite. Thanks!
+        - No problem, easy to miss :)
+    
+- Sorry: how do I add a review instead of a simple comment? I want to give my OK to a pull request.
+    - once you are inside an open pull request (PR), if you select "Files changed" on the top bar (underneath the title of the pull request), you can see a green button with the option "Submit review".
+        - Thank you!
+    - If the PR is already closed, then that same button says "Submit comment", because the merge was already done :)
+        - Thank you!
+
+## [Solution will be shown on stream](https://coderefinery.github.io/git-collaborative/same-repository/#exercise)
+
+Questions continued: 
+
+- The issue I opened - and mentioned in the pull request - was not closed after the pull request was approved. Does that mean I have to close it manually? In the pull request mention, I add written "fixes ISsue #...",; should I have used "closes Issue #..." instead?
+    - "fixes #..." or "closes #..." or "fixes: #..." -- no "Issue" see -> https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+        - Ah so it's because I added extra characters in between that he's not happy?
+            - yes, basically there is a specific pattern GitHub understand for this, otherwise it plays dumb and do nothing :)
+
+- How can we make changes to the commit once it was pushed? To comply with the comment feedback made on the pull request I mean. 
+    - You can add further commits if more changes are requested in the Pull Request. YOu can do them locally on the same branch and once you push it will appear as part of the pull request. Or you can do them on the GitHub webinterface. Does this answer your question ?
+    - I usually go to the "pull request" view, look at "files", do more changes and then "commit"
+
+- When trying to push my branch, I got the error stating that "ERROR: Permission to cr-workshop-exercises/centralized-workflow-exercise.git denied to deploy key fatal: Could not read from remote repository." FYI, I already acceopted the invitation and created an issue.
+    - This is good for the zoom room so you can share screen. If you can join, that'd be great.
+
+- In what situation should we fork a repository vs clone and create a new branch? 
+    - If you are not a "team member", then you have "read-only" write to anything related to that repository. So by forking it you clone it under your username namespace so that you can do the changes you want and eventually tell the original creators that you have improved their work and if they want they can merge your changes into the original repository.
+    - Fork is basically clone -> change origin so that it points to your account -> push to your origin where you have write permissions.
+    - Fork a reposiroty if you dont have write permission. Clone and create a new branch when you have write permission
+
+- You don't boil peas and mushrooms, I will need to open an issue with this repository...
+    - Or at least a discussion in the pull request :)
+
+- Can we move files between folders in the GitHub web interface?
+    - Good question. Here the documentation below on how to do that:
+    - https://docs.github.com/en/repositories/working-with-files/managing-files/moving-a-file-to-a-new-location
+
+- VScode struggled with Sync changes (like 25 arrow down, 1 arrow up), anybody else had the same problem?
+    - I am not sure if this was a delay due to github or something else? Did it work in the end?
+    - No, I am not sure what I have done, when going to my new branch (my_addition) the graph looks very colorful... have I pulled all merge requests to my branch?
+    - I got a new message: "Please clean your repository working tree before checkout." It appears when I click the sync sign bottom-left.
+    - I solved it, there was an issue with a conflict (typed git status in the command line in VScode).
+
+- i could not follow how to notify people that i did the changes suggested to accept my pull request
+    - One way to do it is that in the pull request top right corner you can request a specific reviewer. You can also tag people in the discussion of the pull request.
+
+- Where can we find our requested reviews?
+    - Good question. I think there is a page on github that gives you the overview of all your pending requests. Let me check. 
+        - > Thank you! Because I only found it through "submit review" button on the pull request page.
+
+- I am doing the entire process in command line and I did not follow how did i make a branch under a issue ticket. Then now I am already push my branch to github repo. Is there a way to specify this to my issue, and what i should do different next time to specify the ticket? (I have gh in my local machine)
+    - your branch does not need to reference the issue itself (you might use a name for it that is related to the issue at hand), it is more important that when you do the pull request of your branch, you include the issue number in the title so GitHub understands they are linked
+    - you can add a comment on the issue if you want, clarifying that the work is being done on your branch, in case you want to let people know you are working on it.
+        - I can see for example issue #28 (non streaming) request has a pull request linked, how can i do similar things in cli?
+            - you need to add it to the message of your pull request, for example "fixes #XX" or "closes #XX" where XX is the number of the issue. 
+            - Note that it needs to follow that pattern, and you can add anything else to the message.
+                - it wokrs!! thanks!
+
+- So if I clone a repository (that I do not own) locally on my computer, I won't be able to create new branches locally because I don't have write permissions?
+    - You can always create branches to your local repo.
+    - It just affect what you do on remote repository, not your local copy in your machine.
+
+- I think we could spend much more time on this exercise.
+    - True, there is a lot to discover in the github interface, but it's a compromise to get people started and motivated.
+    - Practice is very important. I hope that you will be able to practice this in the near future
+
+- is it only reviewers can review other's pull request? I can comment, but i cant approve the pulling request as the excercise asked me to do it.
+    - does the pull request you are trying to accept has already a review?
+      - there is no reviewers
+          - so I can add a review if you tell me the issue number, and then it is possible to accept it, OR if you want to practice doing a review I can tell you how
+              - I am working on #67, and i am adding a review now in the "file changed", is this right?
+                  - perfect, yes :D let me know here if afterwards you can't accept the pull request, but that should work.
+                 
+ - If someone commented to my pull request, and i need to amend my code, do i just ammend it locally and git push the code again? 
+   - you can do that locally and then push, as you say, or on github, choosing the right branch first.
+       - ok! thanks!
+
+           
+                 
+:::info
+
+## Break until xx:22
+
+Have a drink of your choice, walk around a bit, or any other way to relax :) 
+
+:::
+
+After the break we continue with [protected branches and a summary](https://coderefinery.github.io/git-collaborative/same-repository/#what-is-a-protected-branch-and-how-to-modify-it) and another [exercise](https://coderefinery.github.io/git-collaborative/code-review/#practicing-code-review)
+
+:::info
+## Exercise until xx:55
+
+Link: https://coderefinery.github.io/git-collaborative/code-review/#practicing-code-review
+
+Goal: Open a pull request with a mistake or typo, then find someone else's pull request and do a code review. 
+
+Step by step instructions you can follow are shown below the exercise box.
+
+:::
+
+Questions continued: 
+
+- Could one say that when we create fork Af from A, GitHub does something like
+  `git clone --bare A Af` under the hood?
+  - it’s similar in spirit, but not the same thing. Github creates a new hosted repository and adds a platform-level relationship; and adds some meta-data to know the relationships between the commits. It may use something more efficient than `git clone --bare`, e.g., to avoid duplicating the commits. `git clone` is essentially a full copy.
+      - Yes, hence the "something like". For example, when we clone the remote does not know about us. When GitHub creates fork, you can see "Forks" list grow in the source repo. (My local files could be on deduplicating storage, but that is an "implementation detail".)
+  - When you Fork, GitHub creates a copy of all commits, and history which seems like `git clone --bare` but is also keep a link to original repository with extra features like pull request. 
+
+- Would it generally be considered bad form to have a push request without first filling an issue?
+    - it really depends on the project and type of changes implemented. For example, you might be collaborating in a shared repository with your group, and each member know what they are working on in their branches. It is still good to use a pull request to see conflicts easier and get reviews from others, but no issue was needed. On the other hand, you can always open an issue to keep track of ideas/discuss things.
+    - using issues and prs is not a fundamental law of software development. 
+      The goal of issues is to start a discussion about something, 
+      accepting that there might be things you do not know,
+      and someone else might have opinions on.
+      This is typically a necessity on a large project with many people involved.
+      If you are working with few people, and all other relevant people have been informed about what you want to do, you can go straight for a PR. They will have anyway the opportunity to review it before it is merged.
+      Often, the boundary between "what should be discussed in an issue" and "what should be in the discussion of the PR" is blurred.
+      The more confidence you have (e.g., you have automated tests with good coverage, people know what you are doing, you know the project very well), the less you need to stick to the 'issue-pr-review-merge' loop. 
+
+- When I create a draft pull request other contributors can change the sttus to "ready for review". I thought this option was closed except for the authors?
+    - interesting, I just tested this. It seems it is open to anyone with permission in the repo. Not sure if it is possible to edit the permissions for the draft.
+    - It should not be a big problem. This is a collaborative setting: you need to trust - at least a little - your collaborators. And in this case, "draft" is a way for the author to say "I do not think this is ready". It's a much lesser issue compared to merging without PR, for example. Also, sometimes it happens that a PR is stuck in a "draft" state because the original author has moved on, but someone would like to work on it and get it merged. +1
+
+- What is the difference between create pull request and create draft pull request? Will other people see the "create draft pull request"
+    - Yes, others can see and comment already. Having a pull request in draft format indicates to others that it is still work in progress, it is a nice way to share with others what is going on before being done with the implementation of changes. Draft pull requests first have to be marked ready for review before they can be merged.
+
+- How do I choose who will be the reviewer(s)? 
+    - Depends on the context of your changes. In some cases your repository will have a maintainer, or group of maintainers (often mentioned in README), which would be the obvious choice. Other times you may want to choose a specific person who you maybe have discussed the changes beforehand. 
+    - ..
+
+- Do I still need to refer to the issue number when the pull request is in a draft format? Does "fixes #n" mean that the person is working on the issue or has finished it? 
+  - It's a good idea to refer to an issue ALWAYS, even when drafting the PR. 
+    Notice that there is a risk: issues are opened more and more, and then they are forgotten and never closed. Connecting issues to PRs in this way greatly helps understanding which issues are somehow addressed 
+
+- As submitter how do I accept the reviewers suggested changes?
+    - There should be a "commit these changes" button, or "add suggestion to batch" close to the suggestions
+
+- What is the difference between a draft pull request and a pull request? In what situation would I choose one ot the other?
+    - The draft mode doesn't allow anyone to merge the pull request. It is a way to prevent merging when you know things are not ready (you want to add changes to the branch for example)
+    - You are basically telling your colleagues "I am working on this, but it is not ready". Maybe someone will join your efforts before being ready to merge.
+    - Opening a draft pull request is a more active stance than just opening an issue. You are also saying, humbly, "could this be a solution? Can someone with more experience look at this?"
+
+
+- What is the difference between "Apply suggestion" and "ADd suggestion to batch"?
+    - Add suggestion save the suggestion but not commit it, however, apply suggestion, will also create a commit right away
+    - If there are many suggestions, you might not want to commit them all separately - this will create many commits in which the code could be in an inconsistent state, if there are changes that need to go together.
+      So you can add some of the suggestions to a batch, and then commit the whole batch of changes.
+
+- What should i do if i have clone it to a local machine, and i accidentally made changes to the main branch instead of a new branch? Do i make a new branch again based on my local/main and clone it to local/newbranch, then push the local/newbranch as remote/new branch? but still how do i fix the local/main that has been changed?
+  - After you committed (by mistake) on main, you can create a new branch with `git switch -c <new-branch>`, which will point at the same commit as main. Then you can push that branch. 
+  - You want to fix the status of the main branch, though.
+    For this, after you created a new branch which will point to the commit you made, you can switch back to the main branch 
+    ```
+    git switch main # after you created the new branch as you should have done
+    ```
+    then, your can use git reset to move back the main branch to the previous commit:
+    ```
+    git reset HEAD~ # while you are on branch main
+    ```
+    This, assuming you had only a single commit wrongly on "main".
+    If you need guidance on this, you can come to the help room.
+    
+    - where is the help room :cry: (not urgent, but wanted to learn)
+    - It's a zoom link in the email that was sent this morning or yesterday
+    - okok, i will come after food :) enjoy your lunches!
+      - thanks! I need food too 
+    
+
+- What is the difference between 'comment' and 'start a review' buttons. If I add a comment with 'start a review', the options change to 'add review comment'
+    - when you review you are letting the other person know that you went through the changes and you can make more targeted comments (like change this line and so on). It also means that you are giving a confirmation before proceeding with a merge. It is usually done by someone that understands the implications or what is going on. 
+    - Also, a review might consist of many comments on differnt parts of the files. If you click "start a review", it is assumed that the comment you make now will be the first of a series of comments that will go in the same review. 
+    - So comment post your feedback immediately on the request
+      - yes, with "comment" you do just that, and it will be seen immediately in the discussion of the PR.
+      - with "start review", one needs to remember at some point to finalize it, otherwise all the comments will not be added to the discussion of the PR (IIRC, at least on GitLab, all the added comments end in a "pending" state until you "finalize" the review)
+
+- What is the job of a submitter in the pull request phase?
+  - "submitter" is the person who originally creates the pull request (submits it for review)
+  - It is basically share the changes, explain them and also respond to feedback or do updates if needed.
+  - The point is that the submitter gets feedback from the reviewer and needs to either change the PR (if changes are requested) or counter-review and accept any change that the reviewer suggests
+- Say that you cloned the repo, then added/modified a file, and then pushed. Now you have received a review asking for a change since there was a typo. You take care of that in your cloned repo - while the pull request is still open. Whatt is the best way? Is it to commit again with a different message like "fix: resolving a typo"? I guess what I mean is that how do you handle that :)
+    - you are working on a branch, right? If you now do git push in your branch, those changes will appear in the pull request too
+    - Pull request is merging the branch, not specific commit. If there are issues in the branch, then you can add new commits to resolve them and they will be part of the pull request.
+- I see. Out of curiosity, if I change another file, better to do a separate pull rquest, right?
+    - It is totally fine to have multiple file chances in single pull request. Also if initial branch contains only single file change, but then it appears you need to fix some other files as well, it is better to include them to the same branch / pull request.
+    - the idea is to have all changes related to the same issue/idea on that branch, as long as you're working on it.
+
+:::info
+
+## Lunch break until 13 CET / 14 EST
+
+:::
+
+## [How to contribute changes to repositories that belong to others](https://coderefinery.github.io/git-collaborative/forking-workflow/#how-to-contribute-changes-to-repositories-that-belong-to-others)
+> Now comes the fork :) 
+
+Questions continued:
+
+- Would it be that if I want to contribute to a package for R, for example, is it better to ask like permission? or like if it is accepted? or something?
+  - typically, you would do what we are going to do now - the forking workflow 
+  - Good!!!
+
+:::info
+
+## Exercise until xx:44
+
+Materials: https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise
+
+Goal: Create an issue, create a fork and branch in your fork, commit and submit a pull request to the original repository
+
+We will do a demo after the exercise time.
+For technial issues, please join our zoom help room (link in e-mail)
+
+> Greetings from the zoom help room!
+
+Status report: How is it going with the exercise?
+
+- All good: oo
+- Done: ooooooooooo
+    - Feel free to send more recipes, practice everything we learned during these first three days while waiting :) 
+    - git-intro lesson (day 1+2) also has a bunch of optional episodes: See optional episodes section in the overview on the left: https://coderefinery.github.io/git-intro/
+    - Or, if you are interested you can read our optional (advanced) episodes in git-coolaborative lesson too: [hooks](https://coderefinery.github.io/git-collaborative/hooks/) and [bare repositories](https://coderefinery.github.io/git-collaborative/bare-repos/)
+- Not trying: o
+- Having issues with setup: o 
+- Don't know what to do: o
+    - > Follow instructions in the materials (link above) and let us know below or in our zoom help room: How can we help? What is unclear?
+
+:::
+
+Questions continued:
+
+- how to syn the forked in local machine using command line?
+  - Did you clone the forked repository on your machine?
+      -  yes!
+        - then you should just do "push" or "pull", depending on the "direction" of the sync (i'm not sure I'm answering your Q):
+          - Local changes to be published on github `->` git push
+          - changes on github that you need locally `->` git pull
+        -  ahh, but i want to synch it to the original (in contrast to the forked repo)
+            -  The syncing is easiest done online on GitHub. See https://coderefinery.github.io/git-collaborative/forking-workflow/#how-to-update-your-fork-with-changes-from-upstream
+          - there are two ways: 
+            1. first, on github, sync your fork with the original repo (on the main page of your fork you should see a "sync" button, just above the files),
+              (see answer above this)
+              and then you can pull from your local computer 
+              (original repo on gh -> forked repo on gh -> your computer)
+            2. You could add a remote on your local computer that points at the original repository, and directly pull from that remote. But in this way you do not update your fork on github, which might be out of date.
+ 
+- ...Sorry I do not get in here: 
+    Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
+    What/where is the "upstream exercise" repo?
+    - That is the repository you are forking from.
+    - You mean https://github.com/cr-workshop-exercises/forking-workflow-exercise
+        - Not your fork. The repository that was forked from, like https://github.com/cr-workshop-exercises/forking-workflow-exercise or https://github.com/cr-workshop-exercises/forking-workflow-exercise-recorded. It can be a different one if working in a team.
+        OK cool!
+        
+- This were quite many steps, now my pull request hangs in coderefinery/recipe-book-template, did I do something wrong?
+    - If you're following on your own, we'd like you to fork from https://github.com/cr-workshop-exercises/forking-workflow-exercise or https://github.com/cr-workshop-exercises/forking-workflow-exercise-recorded.
+    - The template you mentioned can be used if working in a team and then other team members fork the repo you just created.
+    - Oh, I see, thanks!
+
+- I have pushed my modification from local clone to my fork and successfully pulled it. But when I want to do the pull request from my fork to upstream it says that cr-workshop-exercises:main is up to date with all commits from (forked repository). I've tried both fork main branch and my newly created branch. Please advice.
+    - The changes done in your fork, did you do them on a branch?
+        - Yes. I created a new branch
+            - have you merge it back to main? In your fork I mean
+                - Its still in its own branch in fork repo. I will try to merge it into main branch in fork repo.
+                    - sorry this is not necessary, what I meant to ask is are you doing the pull request back from this branch that you changed? Just to check if you aren't trying to merge back main branch instead by mistake.
+                        - My misstake. My commit has already been pulled into upstream repo. Thanks you for your help. Issue resolved.ll
+                            - great! :) and sorry for confusing you, I worded poorly my question, you can merge back any branch (not only main).
+
+- I have a question for the previous exercise: I made changes and commited them, to account for the requested changes of a reviewer, but the automatic checks afterwards fail, and when I go into the details, it is saying that the error is in a different file? (not the one I am commiting changes about). How is that? 
+    - can you share the PR number?
+        - PR #84 in centralized-workflow-exercise
+            - you're right, that is weird, I'm checking it.
+            - It looks like one of the files in repository got merged but with a wrong heading. When the test runs check_recipes.py, it goes through all recipes and not just yours.
+            - one way to fix this is to add the change yourself to your PR, but it is unrelated to your PR (chocolate cookies and creppes are not a bad mix though).
+            - other way is to switch to the chocolate cookie branch, make the change, open new PR etc.
+            - I did the thing **you should not do**: fixed it on main directly
+                - hahaha that was going to be my last suggestion :) I mean no harm done, and it was a tiny bug. It is better to avoid that in a normal project though, because it can generate conflicts (better to add it in your own PR)
+                - another option would be to drop a comment in the PR/commit related to the merge of chocolate cookies, saying "hey this change is needed/missing". This is usually not necessary and unimportant (meaning you can do the change yourself), but it might create some ownership problems. Someone might edit a file removing white spaces for example, and GitHub marks that person as the owner of those lines, even if they weren't the person who wrote most of it.
+                                - Thanks a lot for the explanation! :D
+- should I make the pull request from the forked repo or the main repo?
+    - You should not have the permission to do it from the main repository: you should be able though to make a PR from your forked repo to the main one.
+
+- (Too many italians around to mess with pasta :-)
+    - carefull with the italian police :D
+    - jajajajaj
+    - :police_car:
+    - :pizza: :pineapple: :trollface:
+        - one does not talk about that
+
+## [How to approach other people’s repositories with ideas, changes, and requests](https://coderefinery.github.io/git-collaborative/forking-workflow/#how-to-approach-other-peoples-repositories-with-ideas-changes-and-requests)
+
+> Here for example our lesson contribution guidelines for CodeRefinery: https://coderefinery.github.io/manuals/lesson-contribution/ 
+
+
+:::info
+
+## Break until xx:12 ( a moment longer , we will be right back :) )
+
+Stay hydrated!
+
+Walk a little! Stretch your legs!
+
+:::
+
+## General discussion on git collab - feel free to add your contributions
+1. In one sentence: what’s the biggest GitHub collaboration problem you’ve seen?
+    - Figuring out what buttons to press
+    - Merge conflicts
+    - Hard to contribute to very advanced issues
+2. What makes a pull request effective—not just correct?
+    - enough discussion before making changes
+3. How big is too big for a pull request?
+    - more than one added utilities
+    - more than 30 lines. 
+      - 10 lines: woudl you change this and that? are you sure abou the spelling? 
+      - 1000 lines: LGTM (= "looks good to me")
+ 
+4. What is the real purpose of code review on GitHub?
+    - to avoid personal biases
+    - to share responsibilities.
+    - to teamwork
+    - for quality control
+5. Who owns a pull request getting merged—the author or the reviewers?
+    - both, imo
+    - it is possible, on any commits, to have two differente people - and author and a commit. But does it makes sense to have a concept of "ownership" for a pull request?
+    - mostly author, but depends on how the reviewing process goes
+    - complicated one: if an author submits code that violates a license, are the maintainers of the repo (the reviewers) responsible too?
+6. How do you prevent PRs from getting stuck?
+    - set deadline?
+    - Issues can be attached to "Milestones", which have an expiry date, and PRs are usually attached to issues, so in a sense Milestones could help here.
+    - in practice difficult, it largely replies on effective communications. I'd say at least try to leave comments in PRs even you don't have time to handle them soon.
+    - some teams adopt the practice of "nonblocking code reviews" (if you are confident that the code works, because you've got enough tests and you know what you are doing, perhaps you can merge when time is a problem)
+7. Should GitHub block merges on failing CI, or allow overrides?”
+    - I guess it depends on team's urgent objectives
+    - Sometimes a CI pipeline has some tests that are tricky/flaky and may fail because of reasons that are out of control. The probability of this happening approaches 1 if the pipeline is complicated enough (and complexity is not correctly managed).
+8. Squash, merge commit, or rebase—what do you enforce and why?
+    - squash + rebase is cool because it's clean, but it can be complicated (rebase works ok for small PRs)
+    - rebase keeps logs shorter (good for small PRs), but conflicts can be harder to solve and merging is just easier
+9. What’s your protocol when something goes wrong—bad merge, broken main, force push?
+    - create a fix-branch
+    - use the reflog and create "bookmark" branches (then maybe you have to force push)
+10. What’s one GitHub collaboration practice you changed your mind about?
+    - Raise issues before doing further actions
+    - Atomic commits
+    - CI
+    - ..
+
+- I read that ssh is preferred over https when communicating with remote repository. Why is this?
+    - ssh key-based authentication is very convenient
+        - and with modern keys, very secure
+    - HTTPS based requires you to log in, get a token from github, save that in your browser/editor/credential manager, and repeat this every time the token expires.
+    - with SSH, you just have your key (pair), which never leaves your computer (the private one), and you can also use it for anything else that accepts ssh (e.g., other forges than github, hpc systems, remote machines and so on). This can be very convenient (once it's set up :-) ) and also more secure
+
+- How does automated testing and CI change the use of git?
+    - They do not change the fundamental use of git, but highly recommended for peace of mind. Automated testing and CI reduce manual efforts on various trivial tasks (manually run test, formating code, etc.), and ensure that a PR is safe to be merged if all CI checks pass.
+    
+- Do you use version control when writing articles? if so, how and what?
+    - I use git together with quarto, meaning writing the paper in quarto and then render to pdf
+        - Thanks!
+
+
+Questions continued: 
+
+- What is the difference between git fetch, git merge and git pull?
+    - Can you access/read `man git-pull`? It describes how pull does fetch _and_ merge (in some cases)
+    - `git fetch` downlods the latest changes from a remote repository but do not change your local files. `git merge`, basically comibne change from one brnch to another branch again localy. `git pull` do both "fetch" and "merge" in one step.
+
+- What is your experience in contributing to open-source projects? Good/bad ones?
+  - Different projects have different communities behind them. 
+    It can be very difficult in some cases to get someone to review your PR,
+    in other cases instead people are VERY happy that you're finding issues and fixing them, and they will help you
+
+- What is the difference between pull request and merge request? THe second makes the merge automatically?
+  - Does GitHub have both? Aren't they just different names for same thing?
+  - They are basically the same thing, pull request used in GitHUB, merge request used on other platforms like GitLab
+
+- Regarding a remark on following the code of conduct kinda thing in a repo, I was wondering if the repo did not mention anything about how to contribute, as a general practice, is it better to open an issue and discuss, or go on and fork, then make your changes, and then create a pull request? Specially if it is like a large repo managed by several ppl (mostly experts in the field).
+    - Better to start with an issue: it allows to check whether the fix or something you want to work with is in line with the way the project leaders envision it. For small things like typos, minor improvements, I think you can just go ahead with a PR. 
+
+- At what point does going into detail when writing commit messafes and pull request messages become more effort than it's worth - for those that work in small teams and often are the only contributors on a repository from beginning to end, it can sometimes seem like overkill in some scenarios
+    - That’s correct. When you are the only contributor or part of a small team working closely together, clear, concise messages that explain "what" changed and "why" are enough.
+
+- Explain branch protection settings branch ruleset vs. classic branch protection rule?
+    - Classic branch protection is on a repo-level while rulesets are the new feature that lets you define the rules across repos, like at the organization level
+
+- how do we get certificates for this course?
+    - Note that this workshop is continuing next week with more topics beyond git/GitHub, For instructions about the certificate, please see here: https://coderefinery.github.io/2026-03-17-workshop/certificates/
+
+- As someone who has never done code review, when people talk of code review, do they usually refer to github (or at least the style shown here?)
+    - No, it can be in different platforms like GitHub, GitLab or even offline/ in person code review using shared code files
+
+- What does PR mean?
+    - Good question! Is is often (and here) used to shorten "pull requests". (Not sure if people talk about MRs (= merge request) too when working on GitLab?)
+- ..
+- ..
+- ..
+    
+
+## Day 3 wrapup and feedback 
+
+::: success
+News for day 3
+We covered everything as scheduled. Get excited for part 2!
+:::
+
+Today was (vote for all that apply):
+
+too fast:
+too slow: o
+right speed: oooooooooooooooooo
+too slow sometimes, too fast other times:
+too advanced:o
+too basic:
+right level: oooooooooooooooooo
+I will use what I learned today: ooooooooooooooooo
+I would recommend today to others: ooooooooooooo
+I would not recommend today to others:
+
+One good thing about today:
+- hands-on exercises
+- good interactions in the class room, more q's showed up because the paticipants played more around in github
+- real live collaboration
+- Interesting exercises
+- good exercises + good timing for exercises, to play around and familiarise ourselves with the different concepts
+- PR (explained)
+- Exercises were good today, very useful in the class-room setting since there was a reason to work together/collaborate.
+- Colaborative live excercises
+- zoom help
+- fun with collaborating with others (even when working online)
+- i like how i can just sneak in 20k garlic in mushroom soup :) :mushroom: 
+- amazingly fun exercises, and the instructors are very clear and easy to follow <3 (+3!)
+- The discussionof questions and etics working with this. 
+- Working with Centralized and by forking - different approaches
+- ..
+- ..
+- ..
+- ..
+
+One thing to improve for next time:
+- all good
+- more clear tasks
+- Unpredicted schedule for breaks
+- I struggled a bit more to follow the online demostrations today compared with previous days
+- the exercise instructions online could be more clear, I had difficulties understanding and following the steps. A longer description is always more welcomed than too short and vague.
+- ..
+- ..
+- ..
+
+Any other feedback?
+- Wonderful workshop
+- Thank you!
+- many thanks!!
+
+General questions continued:
+- Do we need a preparation for next week?
+    - someone already answer this at the end on twitch, but in case you didn't catch it:
+        - short answer: No
+        - You might check some exercises and get an idea of what we will talk about if you want :)
+- .
+- .
