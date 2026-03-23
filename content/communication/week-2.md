@@ -1,4 +1,8 @@
-+++ title = "Day 4 - getting ready" [extra] subject = "Week 1 wrapup and welcome to week 2" +++
++++
+title = "Day 4 - getting ready" 
+[extra]
+subject = "Week 1 wrapup and welcome to week 2" 
++++
 
 Dear workshop participant,
 
