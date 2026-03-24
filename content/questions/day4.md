@@ -1,5 +1,9 @@
++++
+template = "page-with-toc.html"
+title = "Questions and notes from workshop day 4"
++++
 
-# Day 4
+# Notes for day 4
 
 - Week 1  **notes** have been moved to the archive at: https://coderefinery.github.io/2026-03-17-workshop/questions/
 - **Videos** from the first week have been uploaded to our [YouTube channel](https://www.youtube.com/watch?v=7_vw7HZZwd4&list=PLpLblYHCzJAAn76NX_JrzvScRcj2I9Frq). These are the raw recordings with the breaks included. Subtitles and editing are still missing, those will come in a couple of weeks.
