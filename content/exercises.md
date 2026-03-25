@@ -40,6 +40,7 @@ Day 5 first half, how to document your research software:
 - During the second exercises break, we will do [GH-Pages-2: Deploy Sphinx documentation to GitHub Pages](https://coderefinery.github.io/documentation/gh_workflow/#exercise-sphinx-documentation-on-github-pages)
 
 Day 5 second half, responsible use of generative AI in assisted coding:
+- [Explore an AI chatbot: duck.ai](https://coderefinery.github.io/coding-with-ai/introduction/#common-failure-modes)
 - [Chatting about code with an AI assistant](https://coderefinery.github.io/coding-with-ai/scenario-full-control/#exercises)
 
 Day 6 first half, automated testing:
