@@ -480,3 +480,49 @@ Question: how can we sure that we don't break something during the modularizatio
     - argparse is probably more standard, with click it is easier to do things like sub commands (think how git works, that you have `git pull`, `git commit` and so on - sub commands, but that's also how other "modern" command line interface work - docker/podman/apptainer, conda...) 
     - click has a few nice things about it, but argparse works just as well in most situations.
         - thanks! I will take a look into it :)
+
+
+## Feedback day 6
+
+### Today was (vote for all that apply):
+too fast:o
+too slow:
+right speed:ooooooooo
+too slow sometimes, too fast other times: o
+too advanced:
+too basic:
+right level:ooooo
+I will use what I learned today: oooooooo
+I would recommend today to others: ooooooo
+I would not recommend today to others:
+    
+
+### One good thing about today:
+- Hands-on practices were perfect! Thank you very much!
+- Really liked the test-driven development exercise, it was a fun way to think about things!
+  - will probably reuse this in my training events
+- Live demo and interactions
+- It was interesting hearing from regular users of these tools!
+- This course has been what I really needed in my research at the moment, I already started rebuilding my projects based on what I learned here. Thank you!
+    - <3
+- ..
+- ..
+- 
+- 
+
+### One thing to improve for next time:
+- ...
+- ...
+
+### Any other feedback? General questions?
+- Modularizing code/architecture is a difficult topic
+- Thank you!
+- Could you provide the modular exercise outputs that was done today? The final version what I mean. Thank you!!
+    - Okay, thank you so much for referring to that! I wasn't aware sorry!
+    - Just in case it helps: https://filesender.funet.fi/?s=download&token=fa838315-0a60-407b-af9a-7ae32c55f9c6
+- Thank you for the great workshop! I learned a lot! :smile_cat: 
+- ..
+- ..
+- .
+
+---
