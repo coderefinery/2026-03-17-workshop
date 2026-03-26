@@ -369,7 +369,7 @@ Questions continued:
   -- If this is an reference to the Vancouver guidelines, they are quite old. But they are also continously updated. I think a more appropriate term would be the updated Vancouver guidelines (I think the part about AI was added in 2024 or 2025)
   - It is definitely a good idea to be transparent about using AI.+1
       - should it be disclosed even when we use the AI only for brainstorming/learning? So the actual code, commits, etc. is made by a person that used AI in the design phase (choosing tools, approach and so on)
-          - ..
+          - It depends. If we limit the "disclosure" to peer reviewed articles, maybe learning is not something we disclose there, but the brainstorming part can be integral part of the research process (research planning, study design) and one could be transparent about AI use. Journals policies are saying that "Basic checks of grammar, spelling and punctuation need no declaration" and everything else must be disclosed (that quote is from Elsevier's policy https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier )
 - Will you discuss usage of CLAUDE.md / AGENTS.md & PLANS.md?
     - We will not discuss this on stream but you can read a bit about it in the materials.
 - you mentioned that in 'a few months time' the LLM can perform the coding on our behalf, but ... we still ned to be able to see through the code, understand the code, right. These skills cannot be 'within the LLM' but by us humans - hopefully
