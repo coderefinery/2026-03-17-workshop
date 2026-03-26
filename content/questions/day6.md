@@ -519,7 +519,7 @@ I would not recommend today to others:
 - Thank you!
 - Could you provide the modular exercise outputs that was done today? The final version what I mean. Thank you!!
     - Okay, thank you so much for referring to that! I wasn't aware sorry!
-    - Just in case it helps: https://filesender.funet.fi/?s=download&token=fa838315-0a60-407b-af9a-7ae32c55f9c6
+    - Just in case it helps: https://github.com/coderefinery/2026-03-17-workshop/blob/main/content/questions/modular.zip
 - Thank you for the great workshop! I learned a lot! :smile_cat: 
 - ..
 - ..
