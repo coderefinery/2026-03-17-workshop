@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Questions and notes from workshop day 5 - CodeRefinery workshop March 17-19 and 24-26, 2026</title>
+    <link rel="shortcut icon" href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.4/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.4/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.github.io/2026-03-17-workshop/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Questions and notes from workshop day 5</title>
+      <meta name="twitter:title" content="Questions and notes from workshop day 5" />
+      <meta property="og:title" content="Questions and notes from workshop day 5" />
+      <meta property="og:site_name" content="CodeRefinery workshop March 17-19 and 24-26, 2026" />
+    
+
+    
+      <meta name="description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta name="twitter:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta property="og:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+      <meta property="og:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+    
+
+
+    
+
+    <link href="https://coderefinery.github.io/2026-03-17-workshop/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="coderefinery.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  <h1>Questions and notes from workshop day 5</h1>
+
+  <ul>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#icebreaker-icecream">Icebreaker :icecream:</a>
+      
+        <ul>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#how-would-you-explain-your-current-job-to-someone-in-the-year-1700-if-you-don-t-know-write-what-you-do-and-we-ll-try-to-figure-out">How would you explain your current job to someone in the year 1700? (if you don&#x27;t know, write what you do and we&#x27;ll try to figure out!)</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#what-s-the-best-documented-project-you-ve-seen">What&#x27;s the best documented project you&#x27;ve seen?</a>
+              
+            </li>
+          
+        </ul>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#documentation-lesson-material">Documentation lesson material</a>
+      
+        <ul>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#in-code-documentation">In-code documentation</a>
+              
+            </li>
+          
+        </ul>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#writing-a-good-readme">Writing a good README</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#sphinx-and-markdown">Sphinx and Markdown</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#exercise-until-xx-53">Exercise until xx:53</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#break-until-xx-05-11-05-cet">Break until xx:05 (11:05 CET)</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#deploying-sphinx-on-github-pages">Deploying Sphinx on GitHub pages</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#exercise-until-xx-35">Exercise until xx:35</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#popular-tools-and-solutions">Popular tools and solutions</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#motivation-and-wishlist">Motivation and wishlist</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#summary">Summary</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#longer-break-until-xx-00-13-00-cet-14-00-eet">Longer break until xx:00 (13:00 CET &#x2F; 14:00 EET)</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#responsible-use-of-generative-ai-in-assisted-coding">Responsible Use of Generative AI in Assisted Coding</a>
+      
+        <ul>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#introduction-to-llms-for-code">Introduction to LLMs for Code</a>
+              
+            </li>
+          
+        </ul>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#exercise-until-xx-29">Exercise until xx:29</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#chat-based-coding">Chat based coding</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#exercise-until-xx-59">Exercise until xx:59</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#break-until-xx-10">Break until xx:10</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#ide-integration">IDE integration</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#full-agentic-code-development">Full agentic code development</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#security-considerations">Security considerations</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#conclusions-and-next-steps">Conclusions and next steps</a>
+      
+    </li>
+  
+    <li>
+      <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#feedback-for-day-5-of-the-coderefinery-workshop">Feedback for Day 5 of the CodeRefinery workshop</a>
+      
+        <ul>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#today-was-vote-for-all-that-apply">Today was (vote for all that apply):</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#one-good-thing-about-today">One good thing about today:</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#one-thing-to-improve-for-next-time">One thing to improve for next time:</a>
+              
+            </li>
+          
+            <li>
+              <a href="https://coderefinery.github.io/2026-03-17-workshop/questions/day5/#any-other-feedback-general-questions">Any other feedback? General questions?</a>
+              
+            </li>
+          
+        </ul>
+      
+    </li>
+  
+</ul>
+
+
+  
+  
+    <hr />
+<h2 id="icebreaker-icecream">Icebreaker :icecream:</h2>
+<h3 id="how-would-you-explain-your-current-job-to-someone-in-the-year-1700-if-you-don-t-know-write-what-you-do-and-we-ll-try-to-figure-out">How would you explain your current job to someone in the year 1700? (if you don't know, write what you do and we'll try to figure out!)</h3>
+<ul>
+<li>Other people look at things and tell me about it, and I try to figure out why that happened</li>
+<li>I'm trying to figure out the quantity and quality of materials of buildings without seeing the buildings</li>
+<li>I study how learned men message each other.</li>
+<li>I study how insect eat the forest and try to express that with math.</li>
+<li>I study the differences between core esence of tumours compared to healthy tissue (cancer epigenetics)</li>
+<li>I try to understand how we damage the environment because of things we use/consume.</li>
+<li>I try to assess how the things we use influence our planet</li>
+<li>I try to understand how harmful substances in food occurs even before they occurs using mathematics (forecasting food contaminant occurance).</li>
+<li>I build some models describing how things interact and manifest properties.</li>
+</ul>
+<h3 id="what-s-the-best-documented-project-you-ve-seen">What's the best documented project you've seen?</h3>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://numpy.org/doc/stable/">Numpy</a></li>
+<li><a rel="noopener" target="_blank" href="https://docs.xarray.dev/en/stable/">Xarray</a></li>
+<li>In Python anything in rest-style with type hints</li>
+<li>shockingly I can not think of any software that I find super well documented</li>
+<li>CodeRefinery tutorials +1
+<ul>
+<li>&lt;3</li>
+</ul>
+</li>
+</ul>
+<h2 id="documentation-lesson-material"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/">Documentation lesson material</a></h2>
+<p>Your questions here:</p>
+<ul>
+<li>How do i open this view? When I open the code and use conda I use python, not shell. I managed to install the envrionment but I cannot switch
+<ul>
+<li>Do you use anaconda?</li>
+<li>Yes
+<ul>
+<li>There is the anaconda prompt, you see it from the "navigator". Unfortunately I don't have Anaconda anymore so I cannot check the right name.
+<ul>
+<li>Can it be Anaconda Powershell?
+<ul>
+<li>Yes that should work and "see" the command conda, from that terminal.</li>
+<li>Alright, I'll try it! Thanks :)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="in-code-documentation"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/in-code-documentation/">In-code documentation</a></h3>
+<p>Questions continued:</p>
+<ul>
+<li>Docstrings can be implemented only in functions and classes, right? But in a snippet when you wanna put a comment on why/how you're doing that part, still have to stick to the #comments, correct?
+<ul>
+<li>Correct. Docstrings are only for modules/functions/classes.</li>
+</ul>
+</li>
+</ul>
+<h2 id="writing-a-good-readme"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/writing-readme-files/">Writing a good README</a></h2>
+<p>Questions continued:</p>
+<ul>
+<li>Was wondering what is the logical instances of using a badge? I mean most likely you don't wanna overuse it. Say I am building my code using many other projects like Xarray or another in dev library or a numerical model that is hosted on Git.
+<ul>
+<li>In one of my bigger projects, I have badges for test coverage (fraction of code run in unit tests), license, tests passing or failing, and one for lauching documentation notebooks on binder (Binder allows you to run the code without installing anything, useful for testing things)</li>
+<li>They are a colorful way of displaying information, partly verified by a third party. Mostly for color and checking things at a glance.</li>
+<li>You don't need to put badges for all your dependencies</li>
+</ul>
+</li>
+<li>.</li>
+</ul>
+<h2 id="sphinx-and-markdown"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/">Sphinx and Markdown</a></h2>
+<blockquote>
+<p>You can type along for this session :)</p>
+</blockquote>
+<blockquote>
+<p><a rel="noopener" target="_blank" href="https://www.sphinx-doc.org/en/master/">Sphinx documentation</a></p>
+</blockquote>
+<p>Questions continued:</p>
+<ul>
+<li>
+<p>How to hanlde the "release" or "version" numbers? what would be "1.0" or "0.1"?</p>
+<ul>
+<li>This could be a lecture on its own :D For your stuff, use what makes sense to you. I like that some projects use a release based on dates (so if it's version 2026.3 I know it is new because it is now)</li>
+<li>Good!</li>
+<li>I use semantic versions, but adding a date is a good idea.
+<ul>
+<li>Semantic version means: MAJOR.minor.patch. patch number changes every time something changes. minor number changes for bigger things, but they are backward compatible. MAJOR number changes can include changes that break previously working code.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Im getting: sphinx-build . _build<br />
+```
+Running Sphinx v9.0.4
+loading translations [en]... done</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>  Extension error!
+</span><span>  ```
+</span></code></pre>
+<ul>
+<li>fixed :), i needed "pip install myst-parser" - great :)</li>
+<li>Very good!
+that is why we recommend using the coderefinery conda environment,
+with that you do not have to install individual packages
+(but of course you're free to use pip if you want more control)</li>
+<li>I think I did my terminal looks like this: (coderefinery) name@client75-73 doc-example %</li>
+</ul>
+</li>
+<li>
+<p>Would it be possible to show on the screen how to open it from 0? I have troubles with it (starting from an empty windows screen)</p>
+<ul>
+<li>You mean to open the terminal?</li>
+<li>Yes, conda and sphinx and everything
+<ul>
+<li>Are you mac/windows/linux?</li>
+<li>Windows
+<ul>
+<li>Do you use Anaconda or miniforge?</li>
+<li>Anaconda
+<ul>
+<li>Open anaconda navigator and from there there is the command line (can be powershell or cmd) that will start a terminal with conda visible so you can conda activate coderefinery and sphnix-build ...</li>
+<li>Oh, I think I have only anaconda prompt! Not a navigator
+<ul>
+<li>Anaconda prompt is good. The navigator is like a graphical panel to start various tools.</li>
+<li>Alroght, I have a prompt open and I can activate the env :happy: What next? It's not in a shell</li>
+<li>I dont understand how to connect it to bash? It's a bit confusing cause I cannot use the code with $ here
+<ul>
+<li>You can try "conda env list" to see the list of your environments. If that works then it should also show the coderefinery environment if you created it.</li>
+<li>I did and I called it "word-count" from yesterday's exercise-</li>
+<li>i have it activated now</li>
+<li>ok great! So if you just type sphinx-build (and enter) does it tell you some help message?</li>
+<li>'sphinx-build' is not recognized as an internal or external command,
+operable program or batch file.</li>
+<li>you should have also a 'coderefinery' environment:
+https://coderefinery.github.io/installation/conda/</li>
+<li>"conda list" will  tell you the list of packages that you have right now in word-count. If sphinx is missing you can just "pip install sphinx" (otherwise you need to deactivate this env, and install the coderefinery env)</li>
+<li>It's donwloading now! Thanks :+1:</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>..</p>
+</li>
+</ul>
+<p>:::info</p>
+<h2 id="exercise-until-xx-53">Exercise until xx:53</h2>
+<p>You can choose whichever of the exercises sounds interesting to you! But start with the setup (if you did not type along during the stream)</p>
+<p><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/#exercise-setting-up-a-sphinx-project">Set up a sphinx documentation</a> and try out <a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/#exercise-adding-more-sphinx-content">some features</a></p>
+<p>You can also try out <a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/#exercise-sphinx-autodoc">Sphinx autodoc</a> or check out using <a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/sphinx/#exercise-using-jupyter-with-sphinx">Jupyter with Sphinx</a></p>
+<p>After that we will do a quick wrapup on stream and then go into a short break.</p>
+<p>:::</p>
+<p>How is it going with the exercises? Add a 'o' where appropriate for you:</p>
+<ul>
+<li>Done:</li>
+<li>I find them interesting:ooooo</li>
+<li>I have problems:</li>
+<li>Need more time:o</li>
+<li>Any comment:
+<ul>
+<li>I can not get the build to work, probably missed something in the setup, can we see the consol inputs again, please?
+<ul>
+<li>You can find all inputs before the exercise boxes on the Sphinx material page: https://coderefinery.github.io/documentation/sphinx/#sphinx-and-markdown</li>
+<li>If you need help, please join the zoom help room :)
+<ul>
+<li>My pattern recognision thought that the inputs are another thing to copy into a text file, but now it works, thank you!
+<ul>
+<li>Nice!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The output is beautiful, especially the math and the syntax highlighting in the code</li>
+<li>I think I also have some problems with setup, but I managed to do the exercises using Command Line and Git Bash simultaneously.
+<ul>
+<li>very good feedback, for the next time we will try to spend more time on the setup phase to bring everyone up to speed</li>
+</ul>
+</li>
+<li>This worked for me:<pre data-lang="{toctree}" style="background-color:#f5f5f5;color:#1f1f1f;" class="language-{toctree} "><code class="language-{toctree}" data-lang="{toctree}"><span>:maxdepth: 3
+</span><span>:caption: Contents:
+</span><span>
+</span><span>[...]
+</span><span>apidocs/index
+</span><span>my-new-page.md
+</span></code></pre>
+But I do not understand what is happening behind the scenes, could you explain a bit?
+<ul>
+<li>did the explanation on stream resolve your question?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>:::success</p>
+<h2 id="break-until-xx-05-11-05-cet">Break until xx:05 (11:05 CET)</h2>
+<blockquote>
+<p>After the break we will learn how to move our documentation from local to GitHub pages, so that others may also see it :)</p>
+</blockquote>
+<p>:::</p>
+<p>Questions continued:</p>
+<ul>
+<li>Does the jupyter_execute directory need to be saved or it is generated in the same way as _build?
+<ul>
+<li>It's generated so you can add it to your .gitignore (as with _build)</li>
+</ul>
+</li>
+</ul>
+<h2 id="deploying-sphinx-on-github-pages"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/gh_workflow/">Deploying Sphinx on GitHub pages</a></h2>
+<ul>
+<li>How can we know which <code>uses:</code> to use in the yml for Github Actions?
+<ul>
+<li>You can start from the example. In this case you should not need to add any more uses: sections. Extra dependencies can be added by modifying the <code>pip</code> line.</li>
+<li>Thank you!</li>
+</ul>
+</li>
+<li>I am a bit lost, did we see how the local doc-example repository is deployed? Was it in the template?
+<ul>
+<li>We move to a new repository using this template: https://github.com/coderefinery/documentation-example/generate . If you click that link you will get a wizard to start a new repository using the template</li>
+<li>For simplicity, this part of the lesson happens completely on gihtub, but if you want you can also clone your repository locally (the one you generated from the template), and use sphinx-build to gneerate the pages locally.
+<ul>
+<li>If I want to deploy the same local doc-example repository on my machine using these steps, should I push this local repo to my GitHub page because Sphinx already created these source files in the previous exercise (HTML, CSS etc.)?
+<ul>
+<li>This is a bit tricky. You could try to manually make a gh-pages branch and add the generated HTML and then push it and not set up GitHub Actions but only GitHub pages -- but I recommend following the way we do it in the lesson</li>
+<li>notice that the gh-pages branch is a very "weird" one, as it typically is an "orphan" - it has only a commit without parents. You could generate this branch locally on your machine and force-push to github (I have n't tried this, but it could work)</li>
+<li>In most cases the locally built Sphinx HTML is only viewed locally, but you could also e.g. upload it to web hosting provided by your university. GitHub Pages on the other hand works best with GitHub Actions.</li>
+<li>If you want to start from the same repository, another possibility would be to move the <code>.md</code> files to the <code>doc</code> subdirectory as a first step, and then it should be possible to do e.g. <code>mkdir -p .github/workflows</code> and make the <code>documentation.yml</code>, commit and push and follow the other steps as shown</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>(Catching up today so this is only relevant to day four, but I was looking for the coderefinery conda env and the link given on https://coderefinery.github.io/documentation/ is broken. (To https://coderefinery.github.io/installation/conda-environment/))
+<ul>
+<li>Indeed! Thank you for highlighting, will fix it right away!
+<ul>
+<li>This is the correct link: https://coderefinery.github.io/installation/conda/
+<ul>
+<li>Should be fixed now ! :)
+<ul>
+<li>Thanks!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>:::info</p>
+<h2 id="exercise-until-xx-35">Exercise until xx:35</h2>
+<p>Try it out yourself: Follow the <a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/gh_workflow/#demonstration-deploy-sphinx-documentation-to-github-pages">setup instructions</a> for deploying your own documentation to GitHub pages.</p>
+<p>Then try out adding more stuff to your documentation following the <a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/gh_workflow/#exercise-sphinx-documentation-on-github-pages">following exercise on the material page</a></p>
+<p>If you have technical issues, please come to virtual help room (link in e-mail)</p>
+<p>:::</p>
+<p>Questions continued:</p>
+<ul>
+<li>Huh! Interesting! So basically when you update or modify something in your .md and commit, it basically re-runs itself without prompt and updates the page!
+<ul>
+<li>yes, when anything changes on the main branch
+<ul>
+<li>cool!</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>where can i click to see my sphinx repository?
+<ul>
+<li>In GitHub you mean?</li>
+<li>yes, in GitHub</li>
+<li>You can click on your user image &gt; Repositories to see all your repositories, from there you should be able to find it by name
+<ul>
+<li>Or did you mean from somewhere else?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>At the bottom of the page it is under copyright saying Copyright workshop participant! How to change that? As in the case if I wanted to start from this template and build sth on my own!
+<ul>
+<li>You can change all kinds of things, also the copyright notice in your <code>conf.py</code>
+<ul>
+<li>Thnx. So 'conf.py' is the place to look at.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="popular-tools-and-solutions"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/tools/">Popular tools and solutions</a></h2>
+<blockquote>
+<p>Sorry for the short unavailability of notes! Should be back to normal now :)</p>
+</blockquote>
+<ul>
+<li>thanks!</li>
+</ul>
+<h2 id="motivation-and-wishlist"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/wishlist/#motivation-and-wishlist">Motivation and wishlist</a></h2>
+<h2 id="summary"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/documentation/summary/">Summary</a></h2>
+<p>Questions continued:</p>
+<ul>
+<li>Is it possible to integrate DAG (from yesterday's tool: Snakemake) to our documentation?
+<ul>
+<li>You can produce the picture of the DAG produced with <code>snakemake --dag | dot ...</code> (I don't remember the exact command),
+which is a simple image, and add it as a figure in one of the files.
+It would be good to make it possible to regenerate it every time the snakefile changes,
+and have the render happen on github actions,
+but this also require you install snakemake - or make it available somehow - in the github actions part.</li>
+</ul>
+</li>
+</ul>
+<p>:::info</p>
+<h2 id="longer-break-until-xx-00-13-00-cet-14-00-eet">Longer break until xx:00 (13:00 CET / 14:00 EET)</h2>
+<blockquote>
+<p>You may need to reopen the notes link to get back in after a short crash earlier, sorry for the inconvenience</p>
+</blockquote>
+<p>:::</p>
+<blockquote>
+<p>After break we will continue with:</p>
+</blockquote>
+<h2 id="responsible-use-of-generative-ai-in-assisted-coding"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/">Responsible Use of Generative AI in Assisted Coding</a></h2>
+<h3 id="introduction-to-llms-for-code"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/introduction/">Introduction to LLMs for Code</a></h3>
+<p>Question to audience: What is your favorite lannguage model/chatbot?</p>
+<ul>
+<li>Not favorite but the university has a license and they say it is more "trustable", Microsoft Co-pilot</li>
+<li>I use CoPilot because my university has a license but I have heard that Claude is a 'good' option as well. After some of the recent releases, ChatGPT has become a huge cesspool of hallucinations. It is so surprizingly bad and people do not realize how bad it is beause they generate such authorative sounding texts.</li>
+<li>All are bad and nobody needs them +</li>
+<li>I'm using mainly ChatGPT bc my organisation offers the paid version</li>
+<li>I'm using Claude and Claude Code</li>
+<li>Claude when I need a solution, perplexity when I need to understand (at least there are sources there)</li>
+<li>Composer 2 from Cursor (looking into Claude atm)</li>
+<li>ive only tried chatgpt</li>
+</ul>
+<p>Add your questions here:</p>
+<ul>
+<li>I have heard that the safest way to use agentic AI (Claude Code for ex) is by using a separate system with no connection to secure networks. What is your opinion regarding that?
+<ul>
+<li>Agentic AI is the most powerful but most dangerous option. Claude code (and probably also other harnesses) can be configured to an extent, specifying which commands/tools they are allowed to use. If one wants to use the agent without restrictions, then really one should use these kinds of precautions, because there is no way to be sure the agent will not do something incredibly stupid like removing all the files on the filesystem or sending sensitive information to anyone. But...</li>
+<li>we will talk about this in the Security episode of this lesson</li>
+</ul>
+</li>
+<li>Note on the Jellyfish report: Jellyfish is a company selling telemetry on AI usage, they have a <em>financial</em> stake in how those numbers are represented. They also don't give information on what companies were included in their survey, but companies listed on their website include Draft Kings (gambling). <strong>Consider the source, remember the motive.</strong> +1
+<ul>
+<li>Well said! As well as the CEOs of these companies saying that everyone will use their product in few months. It would be weird if they would say the opposite. :) +1</li>
+</ul>
+</li>
+</ul>
+<p>:::info</p>
+<h2 id="exercise-until-xx-29">Exercise until xx:29</h2>
+<p>Exercise box below <a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/introduction/#common-failure-modes">this header</a></p>
+<p>Goal: Play around with duck.ai and share your relections below</p>
+<p>:::</p>
+<p>Anything you would like to share about your experience with the chatbot?</p>
+<ul>
+<li>I spelled python as "puthong" and it understood anyway :D
+<ul>
+<li>yes it mostly works well in fixing typos and spelling errors during writing :D</li>
+</ul>
+</li>
+<li>It's interesting to test the different models behind duck.ai and compare the difference
+<ul>
+<li>only one of the models accurately corrects for bias by dividing by (n-1) instead of n</li>
+</ul>
+</li>
+<li>I tried Claude, it is one of the few big LLMs I have not tried and I was surprised by the speed, love gemini and perplexity but they are often slow (tried a more complex question and like most models exept for gemini claude failed)
+<ul>
+<li>duck.ai only seems to offer Claude Haiku, the smallest variant. The larger the model, the slower it is, but the higher the chance it can correctly answer to complex prompts.</li>
+</ul>
+</li>
+<li>I tried both dock.ai and Microsoft copilot. Copilot directly gave me the simplest code with one value error which is raised when the list is empty. On the other hand, duck.ai gave two conditions for raising value error but the second one was kind of maybe unnecessary.</li>
+<li>Pretty fast, at least using ChatGPT..
+<ul>
+<li>just remember to be careful about the correctness of the answers too, providing fast responses is not enough :)
+<ul>
+<li>yes, you are right. I didnt mention that the answer was correct for what I tried.
+<ul>
+<li>Nice! might be the case for more complex coding projects, which accuracy of the code's funcitonallity is very important but not easy to verify at first glance. In general, its better to use AI tools which are more reliable even if they are not as fast.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="chat-based-coding"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/scenario-full-control/">Chat based coding</a></h2>
+<p>Questions continued:</p>
+<blockquote>
+<p>"Slop" is the new Zeitgeist</p>
+</blockquote>
+<ul>
+<li>My goal in life is to write a markov babbler and fill the training data with nonsense :)
+<ul>
+<li>this is actually interesting (obviously). I've read somewhere that if you train an LLM with nonsense, it will definitely overfit, while with real data it would do it far less (meaning, probably, that the LLM is really learning "relationships" beween things and creating a model, which obviously does not exist in nonsense data)</li>
+</ul>
+</li>
+<li>what do you mean by not sharing "real research data" (except obv. sensitive data about anything related to humans)? why is it concern?
+<ul>
+<li>Two concerns I can think of. 1. this research data will end up in the training data, which means that they can scrape it and use it before you can wrap up your research (e.g. if you're doing material science and they get the patent first). 2. when research data ends up in the training data, the LLM will then slowly learn to generate bogus data, which untrained individuals can then request it to do. this fake data can then lead to misinformation.</li>
+</ul>
+</li>
+<li>I do know that the 'knowledge' different models are frozen at their training time. However, some of these models also claim to search the web. To me it seems contradictory.
+<ul>
+<li>the LLM is likely "frozen in time", but the "harness" around it might allow it to call "tools" that are used to bring in its context window information from an internet search.</li>
+<li>Asking a question an "plain" LLM is like asking a question to someone who has no access to documentation or the internet at all, and they are allowed to answer only based on what they remember. If you let them search the internet or use a tool, you get something that feels more like a human (because humans typically do some research before answering questions they are not 100% sure about)</li>
+</ul>
+</li>
+<li>Regarding prompt engineering: it happens to me sometimes that I know that my problem is so specific that I know that I need to tell something very specific to the LLM in order to get anything useful.<br />
+So while I am carefully crafting the prompt, trying to be concise but without leaving anything crucial out, I realize that I might just write the solution myself in code...
+<ul>
+<li>Seems like a win no?
+<ul>
+<li>It seems like I've got a very sophisticated rubber duck
+(https://rubberduckdebugging.com/)   +1:P
+<ul>
+<li>same for me :D
+<ul>
+<li>aha! I need a duck</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>I used vibe coding to write a script that would query the API of our local train company to find on what day I get the cheapest ticket for a particular destination ("the rise of personalized software")
+<ul>
+<li>a great exmaple of using AI assisted programming to solve real world problems :)</li>
+</ul>
+</li>
+<li>Are there any IDE-coding / vive coding / agent tools that don't require personal data to make an account?  I'm thinking as close to duck.ai as possible.  I've wanted to test but haven't wanted to make an account.
+<ul>
+<li>Anything locally hosted? There are models that can fit in the memory of a beefy computer</li>
+</ul>
+</li>
+<li>The policies behind the use of AI on copyright-protected data (e.g., local/cloud models used on scientific papers for some data harvesting) can be a bit complicated. How do you deal with this? Who do you ask? University or publishers?
+<ul>
+<li>Usually a university or research organization should have a policy on the use of AI. I.e. what tools can be used for which applications. Often they have a contract with a specific provider, for which they then allow the use of more "internal" data. If you are an employee at such an organization your manager should know who to contact if you do not. Not sure how the situation for students is.</li>
+<li>Sensitive data should almost never be fed into a remote LLM.</li>
+<li>Systems using RAG (Retrieval Augmented Generation) might help with proper attributions of sources (every time you get an answer you also get the information of which documents were used to generate it). Someone more expert than me on RAG could comment here (https://en.wikipedia.org/wiki/Retrieval-augmented_generation)</li>
+</ul>
+</li>
+</ul>
+<p>:::info</p>
+<h2 id="exercise-until-xx-59">Exercise until xx:59</h2>
+<p><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/scenario-full-control/#exercises">Building a data loader and debugging</a></p>
+<p>Share your experiences below :)</p>
+<p>You can try both or just one.
+:::</p>
+<p>Anything noteworthy to share from the exercise?</p>
+<ul>
+<li>I find it very useful to aks for "what could go wrong", it really brainstormed a lot of possibilities I would not come up with myself (maybe also because I did not have a proper context, some of the "criticalities" that the LLM pointed out might not really apply to the problem I have).</li>
+<li>by default they tend to write "horrible" code. the last version of the json loader function is like 50 lines of code, filled with repetitions... giving it a style guide could help (with an agent you can have your AGENTS.md /CLAUDE.md and give some more information on how the code should look like)</li>
+</ul>
+<p>:::info</p>
+<h2 id="break-until-xx-10">Break until xx:10</h2>
+<p>:::</p>
+<h2 id="ide-integration"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/scenario-ide-integration">IDE integration</a></h2>
+<p>Questions continued:</p>
+<blockquote>
+<p>Most reports I've heard about "auto compaction" of the context is that it is not great. I have used it without terrible results. Probably it is going to improve?
+In the case of agents, I believe that very often the harness is not sending the whole content of a file to the LLM server.</p>
+</blockquote>
+<h2 id="full-agentic-code-development"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/scenario-agentic/">Full agentic code development</a></h2>
+<p>Are you using agentic code systems/AI agnts? Which ones? Any comments?</p>
+<ul>
+<li>I do not have the money to pay for that amount of tokens hah
+<ul>
+<li>some universities/institutions offer some resources for free (you can use an open source or free agent and connect it to a service for which you get an API key)</li>
+</ul>
+</li>
+<li>I used Claude Code, let it search through files for necessary information, so it generated necessary code, commandlines itself.</li>
+<li>I use claude code (want to try other tools, I think depending on a single tool is a serious vulnerability) but more as a "pair programmer" than a "project manager"</li>
+<li>I used also OpenCode a couple of times, seemed to work ok (I'm eager to try again)</li>
+<li>Why is Claude installing the slack-app (not part of the prompt)?
+<ul>
+<li>It is suggesting to do that (as a tip), not doing it (yet).</li>
+</ul>
+</li>
+</ul>
+<p>Questions continued:</p>
+<ul>
+<li>How to cosider co-authorship when using these agentic tools? :+2:
+<ul>
+<li>should the tool be considered a co-author?
+<ul>
+<li>I am not sure. They also contribute to the works.
+<ul>
+<li>in my experience, its ok to acknowledge AI tools used for editing or polishing, but not for the scientific ideas, methods or analyses.+1 (I have personally seen very bad research ideas being generated by genAI, at the end of the day AI cannot think, humans can)</li>
+<li>
+<ul>
+<li>There are official guidelines. In the Vancouver Guidelines for authorship, AI cannot be a co-author. They can be used as tool for specific purposes (like refining the manuscript and so on) but finally a human author must review and validate the results produced. And the human is reponsible for the content generated. Like you would not give authorship to the HPC you used to run your calculations, right?
+<ul>
+<li>True! But for example Claude Code sometimes offers to commit the changes it made, and when it does, it puts itself as author (funny - with email as norepy@anthropic.com)</li>
+<li>
+<ul>
+<li>Authorship rules are bound by very specific codes of scientific conduct. Claude can call itself an author as many times as it likes but it cannot be an author in a journal article (or anywhere else).</li>
+<li>Thanks for the clarification!</li>
+<li>Plus scientific authorship is different than git commit authorship</li>
+</ul>
+</li>
+<li>Are these the "Vancouver Guidelines for Authorship"? https://www.icmje.org/icmje-recommendations.pdf. Yep
+<ul>
+<li>Wikipedia says it was 1936.
+-- If this is an reference to the Vancouver guidelines, they are quite old. But they are also continously updated. I think a more appropriate term would be the updated Vancouver guidelines (I think the part about AI was added in 2024 or 2025)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>It is definitely a good idea to be transparent about using AI.+1
+<ul>
+<li>should it be disclosed even when we use the AI only for brainstorming/learning? So the actual code, commits, etc. is made by a person that used AI in the design phase (choosing tools, approach and so on)
+<ul>
+<li>It depends. If we limit the "disclosure" to peer reviewed articles, maybe learning is not something we disclose there, but the brainstorming part can be integral part of the research process (research planning, study design) and one could be transparent about AI use. Journals policies are saying that "Basic checks of grammar, spelling and punctuation need no declaration" and everything else must be disclosed (that quote is from Elsevier's policy https://www.elsevier.com/about/policies-and-standards/the-use-of-generative-ai-and-ai-assisted-technologies-in-writing-for-elsevier )</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Will you discuss usage of CLAUDE.md / AGENTS.md &amp; PLANS.md?
+<ul>
+<li>We will not discuss this on stream but you can read a bit about it in the materials.</li>
+</ul>
+</li>
+<li>you mentioned that in 'a few months time' the LLM can perform the coding on our behalf, but ... we still ned to be able to see through the code, understand the code, right. These skills cannot be 'within the LLM' but by us humans - hopefully
+<ul>
+<li>That's the marketing... +1 Their argument is, that you won't need the skills in the future anymore, because the AI will be so good it can do anything without you checking it. Just like you do not need to memorize as much anymore because we have invented writing. Of course one might not necessarily buy into that hype.</li>
+<li>yeah it's been "a few months" for a few years now</li>
+</ul>
+</li>
+</ul>
+<h2 id="security-considerations"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/security/">Security considerations</a></h2>
+<p>Questions continued:</p>
+<ul>
+<li>I guess even if the package exists on PyPI, it could have just been made.  So you need to check it's old (and hope that's enough...).
+<ul>
+<li>That it's widely used (i.e. downloaded a lot and referenced in other places) and open source would be a good indicator at least.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>The xkcd comic about sql-injections that was mentioned: https://xkcd.com/327/</p>
+</blockquote>
+<ul>
+<li>In the teaching materials, there is this sentence under Risk 5:... "Here a reddit post with a user completely erasing their laptop with Claude code (add link)". I guess you have been meaning to add the link here. Just a heads-up
+<ul>
+<li>Thank you for highlighting. Yes, these materials are brand new, and there are a few to-dos left to fill for us :)
+<ul>
+<li>Sure! Thank you very much for preparing such thorough open-source materials! :)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="conclusions-and-next-steps"><a rel="noopener" target="_blank" href="https://coderefinery.github.io/coding-with-ai/conclusion/">Conclusions and next steps</a></h2>
+<hr />
+<h2 id="feedback-for-day-5-of-the-coderefinery-workshop">Feedback for Day 5 of the CodeRefinery workshop</h2>
+<p>:::success
+News for day 5 / preparation for day 6
+Today, we covered documentation and responsible use of AI in coding. We hope you got to try out Sphinx and remember it whenever you may need a nice polished documentation website. There are a lot of functionalities to explore!
+Tomorrow, the last day of this CodeRefinery workshop: We will dive into automated testing and modular code development. If you would like to try out t he testing exercises in python, please install pytest via our <a rel="noopener" target="_blank" href="https://coderefinery.github.io/installation/conda/">conda installation instructions</a>.
+:::</p>
+<h3 id="today-was-vote-for-all-that-apply">Today was (vote for all that apply):</h3>
+<p>too fast: o
+too slow:
+right speed: ooooooooo
+too slow sometimes, too fast other times:
+too advanced:
+too basic:
+right level: oooooo
+I will use what I learned today: oooooooo
+I would recommend today to others: o ooooooo
+I would not recommend today to others: o</p>
+<h3 id="one-good-thing-about-today">One good thing about today:</h3>
+<ul>
+<li>Markdown/Github tricks for READMES, intro to Github pages and actions</li>
+<li>didn't know duck.ai</li>
+<li>Great introduction to this, for me, new topics - looking forward to read the text on CodeRefinery too</li>
+<li>The AI coding was new stuff to me and exactly the kind of introduction I wanted to give a broad overview so I know what to know about IDE/agent integration.  (I can learn the rest from here)</li>
+<li>Diversity of topics</li>
+<li>Loved the CLAUDE.md live demo o</li>
+<li>It's incredibly useful session, especially the part about secure using and possible hazards</li>
+<li>Sphinx for GitHub pages, and also for the README!</li>
+<li>Discussing with duck.ai I learned about my own coding mistakes that I will now resolve</li>
+</ul>
+<h3 id="one-thing-to-improve-for-next-time">One thing to improve for next time:</h3>
+<ul>
+<li>Today's sessions might have been divided into two days because yesterday was more discussion-oriented and we could have seen some of today's materials yesterday already. Yesterday's discussions were necessary for sure, but today's materials were crucial too and I felt that we couldn't go into much today.</li>
+<li>I think that some more discussions on code comments, docstrings and readthedocs would've been nice.</li>
+</ul>
+<h3 id="any-other-feedback-general-questions">Any other feedback? General questions?</h3>
+<ul>
+<li>The AI session felt very undercooked and very rushed. For a two hour session the scope was far too broad. Some of the technology discussed (especially agentic AI) is itself undercooked, so I question how useful it'll be in a year.
+<ul>
+<li>a comment: the security considerations around AI agents will unfortunately be quite important for a <em>long</em> time (this is a completely new attack vector)</li>
+<li>It is indeed undercooked by definition as it is experimental, thanks for the feedback and maybe we can focus it more to some aspects rather than covering all scenarios in future CR.</li>
+</ul>
+</li>
+<li>Thank you!</li>
+<li>Thank you for a nice day</li>
+</ul>
+
+  
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h4>Funding</h4>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h4>Privacy</h4>
+    <p>
+      <a href="https://coderefinery.org/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Follow us</h4>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: social">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Contact</h4>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Improve this page</h4>
+    <p>
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;coderefinery&#x2F;2026-03-17-workshop">Source code</a>
+    </p>
+  </div>
+
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

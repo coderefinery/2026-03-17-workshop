@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeRefinery workshop March 17-19 and 24-26, 2026</title>
+    <link rel="shortcut icon" href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.4/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.4/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.github.io/2026-03-17-workshop/atom.xml" />
+    
+
+        
+      <title>CodeRefinery</title>
+      <meta name="twitter:title" content="CodeRefinery workshop March 17-19 and 24-26, 2026" />
+      <meta property="og:title" content="CodeRefinery workshop March 17-19 and 24-26, 2026" />
+    
+
+    
+      <meta name="description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta name="twitter:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta property="og:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+      <meta property="og:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+    
+
+
+    
+
+    <link href="https://coderefinery.github.io/2026-03-17-workshop/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="coderefinery.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2026-03-17-workshop&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  
+    <h2 id="announcements-and-communication-with-participants">Announcements and communication with participants</h2>
+<p>Please find short and long announcement texts in the bottom of this page.
+We also have a <a rel="noopener" target="_blank" href="https://raw.githubusercontent.com/coderefinery/posters/refs/heads/main/2026_spring_workshop/workshop_poster_march25_CET.png">workshop poster</a> which can be printed or shared digitally.</p>
+<p>Here we collect email texts which we have sent to participants. They are
+hopefully useful for late registrations or future workshops.</p>
+<div class="uk-alert-danger" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p>
+    If you registered late and cannot find the link to the Q&A document,
+    please contact us. See the bottom of this page for contact details.
+  </p>
+</div>
+
+  
+
+  <h3>List of emails</h3>
+  <ul>
+    
+      <li>
+        <a href="#workshop-announcement-example-(shorter-version)">Workshop announcement example (shorter version)</a>
+      </li>
+    
+      <li>
+        <a href="#workshop-announcement-example-(longer-version)">Workshop announcement example (longer version)</a>
+      </li>
+    
+      <li>
+        <a href="#welcome-e-mail,-week-before-workshop">Welcome e-mail, week before workshop</a>
+      </li>
+    
+      <li>
+        <a href="#day-4---getting-ready">Day 4 - getting ready</a>
+      </li>
+    
+      <li>
+        <a href="#day-3---getting-ready">Day 3 - getting ready</a>
+      </li>
+    
+      <li>
+        <a href="#day-2---getting-ready">Day 2 - getting ready</a>
+      </li>
+    
+  </ul>
+
+  
+  <div id="workshop-announcement-example-(shorter-version)"> 
+    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+      <h5 class="uk-card-title">
+        Workshop announcement example (shorter version)
+      </h5>
+      <p>
+        Subject: CodeRefinery workshop announcement
+      </p>
+      <p>
+        <small>
+          <p>CodeRefinery invites everyone interested in writing more reproducible research code
+to join the CodeRefinery workshop,
+March 17-19 and 24-26, 2026, 10 - 15 CET,
+for free and online.</p>
+<p>For more information and registration, please visit:
+https://coderefinery.github.io/2026-03-17-workshop/.</p>
+
+        </small>
+      </p>
+    </div>
+  </div>
+  
+  <div id="workshop-announcement-example-(longer-version)"> 
+    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+      <h5 class="uk-card-title">
+        Workshop announcement example (longer version)
+      </h5>
+      <p>
+        Subject: CodeRefinery workshop announcement
+      </p>
+      <p>
+        <small>
+          <h1 id="coderefinery-workshop-on-tools-and-techniques-for-reproducible-research">CodeRefinery workshop on tools and techniques for reproducible research</h1>
+<p>Are you writing code for your research?
+Do you want to make your research results more reproducible?
+Do you struggle to reproduce results of your own or others computations?</p>
+<p>Join the <a rel="noopener" target="_blank" href="http://coderefinery.github.io/2026-03-17-workshop/">CodeRefinery workshop</a>, covering the following topics:</p>
+<ul>
+<li><strong>What</strong>: <strong>Intro to git and collaborative git, on GitHub</strong></li>
+<li><strong>When</strong>: March 17-19, 2026, 10:00 - 15:00 CET</li>
+<li><strong>What</strong>: <strong>Reproducible research</strong>, <strong>Social Coding</strong>, <strong>AI Assisted Research Software Development</strong>, <strong>tools for documentation and testing</strong> and <strong>modular code development</strong></li>
+<li><strong>When</strong>: March 24-26, 2026, 10:00 - 15:00 CET</li>
+</ul>
+<p>The intended audience for this workshop are researchers of all domains, levels and preferred programming languages who write code in their research.
+By deepening the knowledge of the tools that enable better code development and sharing, we aim to improve the reproducibility of our research results.</p>
+<p>The workshop is held <strong>online</strong> (streamed on Twitch) with hands-on sessions.
+Interaction with the participants and live help is guaranteed by a variety of means.
+Some locations may offer in-person events (check the <a rel="noopener" target="_blank" href="https://coderefinery.github.io/2026-03-17-workshop/">event page</a>), and <strong>feel encouraged to join as a team</strong> with your colleagues or <a rel="noopener" target="_blank" href="https://coderefinery.org/blog/bring-your-own-classroom/">bring your own classroom</a> (please contact us if this option sparks your interest).</p>
+<p>The event is free of charge.
+More info and registration on the <a rel="noopener" target="_blank" href="https://coderefinery.github.io/2026-03-17-workshop/">CodeRefinery Workshop site</a>.</p>
+<p>In case of any questions, please contact support@coderefinery.org</p>
+
+        </small>
+      </p>
+    </div>
+  </div>
+  
+  <div id="welcome-e-mail,-week-before-workshop"> 
+    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+      <h5 class="uk-card-title">
+        Welcome e-mail, week before workshop
+      </h5>
+      <p>
+        Subject: Welcome to CodeRefinery 2026!
+      </p>
+      <p>
+        <small>
+          <p>Dear all,</p>
+<p>We are happy to have you onboard of the next Coderefinery workshop that starts on Tuesday March 17th at 10:00 CET. Full schedule and details at the March 2026 CodeRefinery workshop webpage.</p>
+<p><strong>Before the workshop: pre-requisites</strong></p>
+<p>If you plan to participate in the hands-on exercises for this workshop, please ensure you have the necessary pre-requisites prepared by visiting this link.
+We provide multiple ways to learn Git: via GitHub web-interface, using the shell terminal, using VS code, or RStudio.
+Using Git in the shell terminal gives you full control over your workflow, but you might not be familiar with the terminal itself. If you’d like to take advantage of Git’s full power through the command line, we offer a shell crash course just before our installation session.
+If you need assistance with the installation, we offer two help sessions on Wednesday March 11th and Monday March 16th. Please check the schedule in your time zone: https://coderefinery.github.io/2026-03-17-workshop/#schedule . You can also ask someone you know for installation help - these are standard tools and they can probably give you custom advice.
+Connection details for the installation help sessions and the shell crash course: (happened already, link sent to registered participants)
+You can add all workshop sessions to your own calendar following the instructions on this page: https://coderefinery.org/calendars/ (choose only the workshop calendar)</p>
+<p><strong>During the workshop: How-to follow</strong></p>
+<p>Here are all relevant resources that you will need in order to connect during the workshop:</p>
+<pre style="background-color:#f5f5f5;color:#1f1f1f;"><code><span>- You may follow the workshop lectures via Twitch in a web browser, no account needed: https://twitch.tv/coderefinery or you can join a local classroom (see below)
+</span><span>- Please use this collaborative document to ask questions during the workshop: (register to receive the link)
+</span><span>- Schedule and lecture materials: https://coderefinery.github.io/2026-03-17-workshop/#schedule
+</span></code></pre>
+<p>We will take shorter breaks every hour amd an one hour break in between which, depending on your timezone, can for example be used for lunch.</p>
+<p><strong>After the workshop: Certificates</strong></p>
+<p>Anyone with an e-mail address associated with a research or higher education institution can request a certificate recommending 1 ECTS for the workshop after the workshop is over. Detailed instructions at: https://coderefinery.github.io/2026-03-17-workshop/certificates/
+We do not track attendance and if you cannot join the live session, you can also watch the recordings available on TwitchTV/YouTube.</p>
+<p><strong>Bonus: Teams and local classrooms</strong></p>
+<p>For those who do not want to attend the workshop alone, there's still time to gather friends and colleagues to follow the workshop with you in a local classroom.
+In-person classroom are currently available in Espoo, Reykjavik, Stockholm, Copenhagen and Oslo, please register separately to get in touch with the respective organisers:
+https://coderefinery.github.io/2026-03-17-workshop/#local-exercise-groups</p>
+<p>If you want to form your own local team, we are happy to help you! Please get in touch with us at support@coderefinery.org
+If you have any questions, please write to support@coderefinery.org</p>
+<p>Best regards,
+CodeRefinery team</p>
+
+        </small>
+      </p>
+    </div>
+  </div>
+  
+  <div id="day-4---getting-ready"> 
+    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+      <h5 class="uk-card-title">
+        Day 4 - getting ready
+      </h5>
+      <p>
+        Subject: Week 1 wrapup and welcome to week 2
+      </p>
+      <p>
+        <small>
+          <p>Dear workshop participant,</p>
+<p>Thank you so much for your active participation during the first week of the CodeRefinery workshop!</p>
+<p>We are especially grateful to all the local hosts,exercise leaders and note helpers for their effort during the exercise sessions. We could not have a workshop of this scale without you!</p>
+<h2 id="looking-back-at-last-week">Looking back at last week</h2>
+<p>We hope that our Git lessons have made you more comfortable using Git for your solo- and collaborative- projects. Of course, we would have loved to show a lot more, if we had the time. If you have ideas on how to improve them, please open issues at https://coderefinery.github.io/git-intro/ or https://coderefinery.github.io/git-collaborative/, or even better, send us pull requests :) .</p>
+<h2 id="looking-ahead">Looking ahead</h2>
+<p>During this upcoming week, we'll take best practices for software development to the next level, by learning about documentation, testing, reproducibility, software licensing, and more. We'll start using additional tools. On our event page, we have compiled a list of exercises you can get your hands dirty with during the workshop (https://coderefinery.github.io/2026-03-17-workshop/exercises/). If you would like to try out these  or optional exercises, please set up your Conda environment beforehand; instructions at: https://coderefinery.github.io/installation/.</p>
+<p>The following episodes are more or less self-contained, so you can pick the one(s) that are more relevant to what you need in your research. Though we of course suggest to attend all sessions and let them surprise you.</p>
+<p>If you'd like to receive a certificate of participation, please do not delete your Git repositories yet and have a look at https://coderefinery.github.io/2026-03-17-workshop/certificates/.</p>
+<h2 id="how-to-follow-the-workshop">How to follow the workshop</h2>
+<p>As usual the links for the following days will be:</p>
+<ul>
+<li>Workshop page: https://coderefinery.github.io/2026-03-17-workshop/</li>
+<li>Installation pre-requisites: https://coderefinery.github.io/installation/</li>
+<li>Twitch-TV stream: https://twitch.tv/coderefinery</li>
+<li>Interactive Q&amp;A document: (see e-mail)</li>
+<li>Zoom room for further live help during exercises: (see e-mail)</li>
+<li>Q&amp;A archive: https://coderefinery.github.io/2026-03-17-workshop/questions/</li>
+</ul>
+<p>Have a wonderful afternoon and see you tomorrow for day 4!</p>
+<p>Kind regards,
+Samantha on behalf of the CodeRefinery team</p>
+<p>--
+Privacy! You are receiving these emails because you are registered for the CodeRefinery workshop March 2026. If you plans have changed, you can edit your registration at https://indico.neic.no/event/291/</p>
+
+        </small>
+      </p>
+    </div>
+  </div>
+  
+  <div id="day-3---getting-ready"> 
+    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+      <h5 class="uk-card-title">
+        Day 3 - getting ready
+      </h5>
+      <p>
+        Subject: Day 3 of the CodeRefinery workshop
+      </p>
+      <p>
+        <small>
+          <p>Dear workshop participant,</p>
+<p>Today we covered the basics of git and tomorrow we will <strong>collaborate together using git and GitHub</strong>. If you missed today (or yesterday) it is still possible to fully enjoy tomorrow and do exercises together. Tomorrow's episode is maybe the best, where you see the true power of git and how it lets you immediately collaborate with any existing open repository in the planet! Now you can finally fix that typo in the documentation you were reading! :)</p>
+<h2 id="a-short-reminder-on-what-you-need-to-do-before-tomorrow">A short reminder on what you need to do before tomorrow</h2>
+<p>Tomorrow we will all practice how to collaborate using Git/GitHub and one ambitious thing we will try is to collaborate with all of you following via stream.</p>
+<p>If you would like to participate as individual learner in the collaborative exercises, please request access by opening an issue at <a rel="noopener" target="_blank" href="https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md">https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md</a> (there click the green button "Create" on bottom right).</p>
+<p>This way we will know your GitHub username and give you write access to exercise repositories.</p>
+<p>After we add you as collaborator, you will get an email from GitHub.</p>
+<p><strong>Please accept the invitation.</strong></p>
+<p>Don't forget to "<em>unwatch</em>" both <a rel="noopener" target="_blank" href="https://github.com/cr-workshop-exercises/centralized-workflow-exercise">https://github.com/cr-workshop-exercises/centralized-workflow-exercise</a> and <a rel="noopener" target="_blank" href="https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded">https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded</a> to make sure you don't get too many emails during the exercise.</p>
+<p>To "unwatch", go to the repository and click the "<strong>Unwatch</strong>" button (top middle of the screen) and then select "Participating and @mentions".</p>
+<p>That is all for today. You may find today's video on Twitch <a rel="noopener" target="_blank" href="https://twitch.tv/coderefinery">https://twitch.tv/coderefinery</a> for another week.</p>
+<p>Recordings are also being uploaded to our YouTube channel later next week.</p>
+<p>Have a great evening!</p>
+<p>Enrico, on behalf of the CodeRefinery team</p>
+
+        </small>
+      </p>
+    </div>
+  </div>
+  
+  <div id="day-2---getting-ready"> 
+    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+      <h5 class="uk-card-title">
+        Day 2 - getting ready
+      </h5>
+      <p>
+        Subject: Day 2 of the CodeRefinery workshop
+      </p>
+      <p>
+        <small>
+          <p>Dear workshop participant,</p>
+<p>Thank you for joining us yesterday for the first day of the CodeRefinery workshop!</p>
+<p>You may find the archived questions and answers here: <a rel="noopener" target="_blank" href="https://coderefinery.github.io/2026-03-17-workshop/questions/day1/">https://coderefinery.github.io/2026-03-17-workshop/questions/day1/</a></p>
+<p>If you'd like to revisit or catch up with some of the episodes, you find the videos on Twitch <a rel="noopener" target="_blank" href="https://twitch.tv/coderefinery">https://twitch.tv/coderefinery</a> for another week. Recordings will later be uploaded to our YouTube channel: <a rel="noopener" target="_blank" href="https://www.youtube.com/@coderefinery">https://www.youtube.com/@coderefinery</a>.</p>
+<p>If you missed day 1, you may still join the rest of the workshop; prerequisites for day 2 are knowing the basics of git. And even without those, you should still be able to follow and do the exercises.</p>
+<h2 id="preparations-for-day-2">Preparations for day 2</h2>
+<p>For today, having the local editors available on your computer is good: VS Code or command line. See the second option on installation <a rel="noopener" target="_blank" href="https://coderefinery.github.io/installation/">https://coderefinery.github.io/installation/</a>. If you don't have these, you can still attend and there are some steps you can do without editors, and you'll learn for the future.</p>
+<p>If you need live help for installing these tools, we provide an exceptional zoom session this morning 18/3/2026 before the workshop starts at 9:00am CET (Oslo/Stockholm timezone).</p>
+<h2 id="preparations-for-day-3">Preparations for day 3</h2>
+<p>On Day 3 (Thursday 19/3) we will all practice how to collaborate using Git/GitHub and one ambitious thing we will try is to collaborate with participants following via stream.</p>
+<p><strong>Day 3 for individual learners</strong></p>
+<p>If you would like to participate as individual learner in the collaborative exercises, please request access by opening an issue at <a rel="noopener" target="_blank" href="https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md">https://github.com/cr-workshop-exercises/access-requests/issues/new?template=access-request.md</a> (there click the green button <strong>"Create"</strong> on bottom right).</p>
+<p>This way we will know your GitHub username and give you write access to exercise repositories. After we add you as collaborator, you will get an email from GitHub. <strong>Please accept the invitation so that on Thursday you can do the exercise on our shared repository.</strong></p>
+<p><strong>Day 3 for learners in local classrooms or teams</strong></p>
+<p>If you are learning with others as part of an in-person room or a virtual team, your local coordinator will take care of preparing the shared git repository for doing the collaborative exercise with other participants in the room. If you are the coordinator you'll receive a separate email from us with more detailed instructions.</p>
+<h2 id="how-to-follow-the-workshop">How to follow the workshop</h2>
+<p>As usual the links for the following days will be:</p>
+<ul>
+<li>Workshop page: <a rel="noopener" target="_blank" href="https://coderefinery.github.io/2026-03-17-workshop/">https://coderefinery.github.io/2026-03-17-workshop/</a></li>
+<li>Installation pre-requisites: <a rel="noopener" target="_blank" href="https://coderefinery.github.io/installation/">https://coderefinery.github.io/installation/</a></li>
+<li>Twitch-TV stream: <a rel="noopener" target="_blank" href="https://twitch.tv/coderefinery">https://twitch.tv/coderefinery</a></li>
+<li>Interactive Q&amp;A document: <em>sent via email</em></li>
+<li>Zoom room for further live help during exercises: <em>sent via email</em></li>
+</ul>
+<p>Have a great day, and see you in a few hours!</p>
+<p>Enrico, on behalf of the CodeRefinery team</p>
+
+        </small>
+      </p>
+    </div>
+  </div>
+  
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h4>Funding</h4>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h4>Privacy</h4>
+    <p>
+      <a href="https://coderefinery.org/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Follow us</h4>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: social">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Contact</h4>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Improve this page</h4>
+    <p>
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;coderefinery&#x2F;2026-03-17-workshop">Source code</a>
+    </p>
+  </div>
+
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
